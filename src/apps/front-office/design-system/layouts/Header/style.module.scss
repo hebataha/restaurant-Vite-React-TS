@@ -1,18 +1,33 @@
-nav{
+header {
+  background-color: #3e3e3e;
+  nav {
     display: flex;
     justify-content: space-between;
-    background-color: black;
-    .logo{
-        color:red
-    }
-    
-    
-    .navBar{
-        display: flex;
-        a{
-            color:#fff;
-            list-style: none;
-        }
-    }
-}
+    align-items: center;
+    padding: 15px;
+    font-size: 1.3rem;
 
+    padding: 10px;
+    .logo {
+      color: #fff;
+      font-weight: 600;
+      font-size: 2rem;
+    }
+
+    .navBar {
+
+      ul {
+        display: flex;
+        gap:15px;
+        justify-content: center;
+        align-items: center;
+        li {
+           
+          a {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

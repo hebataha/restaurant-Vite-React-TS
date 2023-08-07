@@ -1,8 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=Oswald:wght@500&family=Ubuntu:ital,wght@1,500&display=swap');
+
+body{
+  font-family: 'Josefin Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  /* text-align: center; */
+  width:100%
+}
+.container{
+  max-width: 1420px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
 
 .link {

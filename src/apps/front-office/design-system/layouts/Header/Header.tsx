@@ -4,14 +4,13 @@ import styles from "./style.module.scss";
 
 export default function Header() {
   return (
-    <header>
-      <nav>
+    <header >
+      <nav className="container">
         <div className={styles.logo} >
         logo
         </div>
         <div className={styles.navBar} >
-        logo
-    
+    <ul>
         <li>
           <Link>Home</Link>
         </li>
@@ -21,12 +20,25 @@ export default function Header() {
         <li>
           <Link>Reservation</Link>
         </li>
+  
         <li>
-          <Link>Home</Link>
+          <Link>Menus</Link>
         </li>
         <li>
-          <Link>Home</Link>
+          <Link>Shop</Link>
         </li>
+        <li>
+          <Link>Login</Link>
+        </li>
+        <li>
+          <Link>Register</Link>
+        </li>
+        <li>
+          <button>
+            AR
+          </button>
+        </li>
+        </ul>
         </div>
       </nav>
     </header>
