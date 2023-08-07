@@ -12,7 +12,7 @@ export default function Header() {
         logo
         </div>
         <div className={styles.navBar} >
-    <ul>
+         <ul>
         <li>
           <Link>Home</Link>
         </li>
