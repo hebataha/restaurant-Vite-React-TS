@@ -22,7 +22,14 @@ header {
         justify-content: center;
         align-items: center;
         li {
-           
+            &::marker{
+                unicode-bidi: unset;
+                font-variant-numeric: slashed-zero;
+                text-transform: none;
+                text-indent: 0px !important;
+                text-align: start !important;
+                text-align-last: start !important;
+            }
           a {
             color: #fff;
           }

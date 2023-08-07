@@ -1,0 +1,58 @@
+.appearMenu {
+  position: relative;
+  width: 30%;
+  .bar {
+    color: #fff;
+    background-color: #4a4646;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    position: absolute;
+    inset-inline-start: 15px;
+    cursor: pointer;
+
+  }
+}
+
+.HeaderResponsive {
+  background-color: black;
+  width: 30%;
+  padding: 20px 0;
+  position: relative;
+  .close {
+    color: #fff;
+    background-color: #4a4646;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    position: absolute;
+    inset-inline-end: 15px;
+    cursor: pointer;
+  }
+  ul {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    li {
+      &::marker {
+        unicode-bidi: unset;
+        font-variant-numeric: slashed-zero;
+        text-transform: none;
+        text-indent: 0px !important;
+        text-align: start !important;
+        text-align-last: start !important;
+      }
+      a {
+        color: #fff;
+      }
+    }
+  }
+}

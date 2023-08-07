@@ -1,9 +1,11 @@
 import { Link } from "@mongez/react-router";
 import React from "react";
 import styles from "./style.module.scss";
+import HeaderResponsive from "../Footer/HeaderResponsive/HeaderResponsive";
 
 export default function Header() {
   return (
+    <>
     <header >
       <nav className="container">
         <div className={styles.logo} >
@@ -42,5 +44,7 @@ export default function Header() {
         </div>
       </nav>
     </header>
+    <HeaderResponsive/>
+    </>
   );
 }
