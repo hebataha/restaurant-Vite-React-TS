@@ -1,6 +1,7 @@
 // append urls here, DO NOT remove this line
 
 const URLS = {
+  layout: "/layout",
   posts: "/posts",
   home: "/",
   notFound: "/404",

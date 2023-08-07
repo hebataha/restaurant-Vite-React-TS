@@ -32,6 +32,12 @@
                 "/posts"
             ],
             "name": "posts"
+        },
+        {
+            "entry": [
+                "/layout"
+            ],
+            "name": "layout"
         }
     ]
 }
