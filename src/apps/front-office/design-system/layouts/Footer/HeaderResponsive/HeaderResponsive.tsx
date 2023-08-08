@@ -4,7 +4,7 @@ import { useState } from "react";
 export type HeaderResponsiveProps = {
   children: React.ReactNode;
 };
-export default function HeaderResponsive(props: HeaderResponsiveProps) {
+export default function HeaderResponsive() {
   const [close, setClose] = useState(true);
 
   function toggleMenu() {
