@@ -12,18 +12,17 @@ export default function HeaderResponsive(props: HeaderResponsiveProps) {
   }
   return (
     <>
-      {!close && (
-        <div className={styles.appearMenu} onClick={toggleMenu}>
+      <div className={styles.sideMenu}>
+        <div className={!close ? styles.appearTransition : styles.appearMenu  } onClick={toggleMenu}>
           <div className={styles.bar}>+</div>
         </div>
-      )}
-
-      {close && (
-        <div className={styles.HeaderResponsive}>
-          <div className={styles.close} onClick={toggleMenu}>
+    
+     
+        <div className={close? styles.HeaderResponsive : styles.hide}>
+          <div className={ close? styles.close : styles.closeHide} onClick={toggleMenu}>
             X
           </div>
-
+        <div className={styles.menu}>
           <ul>
             <li>
               <Link>Home</Link>
@@ -52,7 +51,9 @@ export default function HeaderResponsive(props: HeaderResponsiveProps) {
             </li>
           </ul>
         </div>
-      )}
+        </div>
+        </div>
+     
     </>
   );
 }
