@@ -1,11 +1,14 @@
 import { Link, changeLocaleCode } from "@mongez/react-router";
-import React, { useState } from "react";
 import styles from "./style.module.scss";
-import HeaderResponsive from "../HeaderResponsive/HeaderResponsive";
+import { useState } from "react";
+import { strings } from "../Header/Localization";
 import { trans } from "@mongez/localization";
 import { current } from "@mongez/react";
-
-export default function Header() {
+export type HeaderResponsiveProps = {
+  children: React.ReactNode;
+};
+export default function HeaderResponsive() {
+  const [close, setClose] = useState(true);
   const [lang, setLang] = useState(true);
 
   const changeLang = () => {
@@ -13,13 +16,24 @@ export default function Header() {
     changeLocaleCode(localeCode);
     setLang((prevState) => !prevState);
   };
+
+  function toggleMenu() {
+    setClose(prevState => !close);
+  }
   return (
     <>
-      <header>
-        <nav className="container">
-          <div className={styles.logo}>logo</div>
-          <div className={styles.navBar}>
-            <ul>
+      <div className={styles.sideMenu}>
+        <div className={!close ? styles.appearTransition : styles.appearMenu  } onClick={toggleMenu}>
+          <div className={styles.bar}>+</div>
+        </div>
+    
+     
+        <div className={close? styles.HeaderResponsive : styles.hide}>
+          <div className={ close? styles.close : styles.closeHide} onClick={toggleMenu}>
+            X
+          </div>
+        <div className={styles.menu}>
+        <ul>
               <li>
                 <Link>{trans("home")}</Link>
               </li>
@@ -46,10 +60,10 @@ export default function Header() {
               <button onClick={changeLang}>{lang ? "en" : "ar"}</button>
               </li>
             </ul>
-          </div>
-        </nav>
-      </header>
-      <HeaderResponsive />
+        </div>
+        </div>
+        </div>
+     
     </>
   );
 }
