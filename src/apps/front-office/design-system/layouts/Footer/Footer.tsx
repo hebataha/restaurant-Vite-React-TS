@@ -17,8 +17,7 @@ export default function Footer() {
           <div className={styles.info}>
             <img className={styles.logo} src={Logo} />
             <p>
-              Be the first to know about new collections, special events, and
-              what’s going on at Our Place. We are creative
+              {trans("descriptionFooter")}
             </p>
           </div>
           <div className={styles.touch}>
