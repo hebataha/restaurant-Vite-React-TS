@@ -24,10 +24,10 @@ export default function Header() {
           <div className={styles.navBar}>
             <ul>
               <li>
-                <Link>{trans("home")}</Link>
+                <Link >{trans("home")}</Link>
               </li>
               <li>
-                <Link>{trans("about")}</Link>
+                <Link href="/about-us">{trans("about")}</Link>
               </li>
               <li>
                 <Link>{trans("reservation")}</Link>

@@ -5,6 +5,7 @@ export default function NotFoundPage() {
   return (
     <>
       <Helmet title={trans("notFoundPage")} />
+      <h3>Not Found</h3>
     </>
   );
 }
