@@ -1,0 +1,56 @@
+.footer {
+  background-color: #111111;
+  .footerElements {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    .logo{
+      width: 120px;
+      height: 120px;
+      background-color: #fff;
+      border-radius: 120%;
+    }
+    .info,
+    .touch,
+    .pages {
+      // width: 40%;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      h3 {
+        color: #dd5903;
+        text-transform: uppercase;
+      }
+      p {
+        color: #f3f3f3;
+        width: 50%;
+      }
+      ul {
+        li {
+          a {
+            color: #f3f3f3;
+            line-height: 1.8;
+          }
+        }
+      }
+    }
+    .images {
+      display: flex;
+      gap: 25px;
+      flex: 1;
+
+      div {
+        width: 86px;
+        height: 86px;
+        margin-top: 10px;
+        img {
+          width: 100px;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
