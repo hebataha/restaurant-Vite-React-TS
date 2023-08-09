@@ -1,11 +1,20 @@
 .footer {
   background-color: #111111;
+  padding: 15px 0 ;
+  @media(max-width:800px){
+    padding: 15px;
+   
+   }
   .footerElements {
     display: flex;
     color: #fff;
     justify-content: center;
     align-items: center;
     width: 100%;
+    @media(max-width:800px){
+     display: block;
+    
+    }
     .logo{
       width: 120px;
       height: 120px;
@@ -22,10 +31,14 @@
       h3 {
         color: #dd5903;
         text-transform: uppercase;
+        display: flex;
+        align-items: center;
       }
       p {
         color: #f3f3f3;
-        width: 50%;
+        width: 80%;
+        margin: 8px 0;
+
       }
       ul {
         li {
@@ -52,5 +65,14 @@
         }
       }
     }
+  }
+}
+
+
+
+html[dir*="rtl"] {
+  svg{
+    transform: scaleX(-1);
+
   }
 }

@@ -10,10 +10,11 @@
   @media(max-width:700px){
     display: block;
   }
+
   .appearMenu {
     position: relative;
     width: 100%;
-    left:0;
+    inset-inline-start:0;
     opacity: 0;
     display: none;
     transition: all .5s ease-in-out;
@@ -32,7 +33,9 @@
       cursor: pointer;
       position: relative;
       z-index: 99;
-  
+      @media(max-width:700px){
+        display: block;
+      }
     }
   }
   
@@ -40,7 +43,7 @@
     // inset-inline-end: 100%;
     transition: all .5s ease-in-out;
   opacity: 1;
-  left:320px;
+  inset-inline-start:320px;
   
     .bar {
       color: #fff;
@@ -57,7 +60,9 @@
       cursor: pointer;
       position: relative;
       z-index: 99;
-  
+      @media(max-width:700px){
+        display: block;
+      }
     }
   }
   
@@ -65,9 +70,9 @@
   .HeaderResponsive {
     background-color: black;
     width: 100%;
-    padding: 20px 0;
+    padding: 20px;
     position: relative;
-    left: 0px;
+    inset-inline-start: 0px;
     opacity: 1;
     transition: all .5s ease-in-out;
     position: absolute;
@@ -75,7 +80,7 @@
     position: fixed;
     // display: none;
     top:0;
-    left:0;
+    inset-inline-start: 0px;
     width: 100%;
     height: 100%;
     z-index: 999;
@@ -90,7 +95,7 @@
       font-size: 1.5rem;
       border-radius: 50%;
       position: absolute;
-      inset-inline-end: 15px;
+      inset-inline-end: 60px;
       cursor: pointer;
     }
     .menu{
@@ -120,7 +125,7 @@
     background-color: black;
     padding: 20px 0;
     position: relative;
-    left: -320px;
+    inset-inline-start: -320px;
     opacity: 0;
     transition: all .5s ease-in-out;
     width: 100%;

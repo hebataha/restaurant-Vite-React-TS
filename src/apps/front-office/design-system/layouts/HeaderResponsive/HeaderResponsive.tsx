@@ -7,6 +7,8 @@ import { current } from "@mongez/react";
 export type HeaderResponsiveProps = {
   children: React.ReactNode;
 };
+import { AlignRight } from "tabler-icons-react";
+
 export default function HeaderResponsive() {
   const [close, setClose] = useState(true);
   const [lang, setLang] = useState(true);
@@ -14,7 +16,7 @@ export default function HeaderResponsive() {
   const changeLang = () => {
     const localeCode = current("localeCode") === "en" ? "ar" : "en";
     changeLocaleCode(localeCode);
-    setLang((prevState) => !prevState);
+    setLang(prevState => !prevState);
   };
 
   function toggleMenu() {
@@ -23,17 +25,22 @@ export default function HeaderResponsive() {
   return (
     <>
       <div className={styles.sideMenu}>
-        <div className={!close ? styles.appearTransition : styles.appearMenu  } onClick={toggleMenu}>
-          <div className={styles.bar}>+</div>
+        <div
+          className={!close ? styles.appearTransition : styles.appearMenu}
+          onClick={toggleMenu}>
+          <div className={styles.bar}>
+            <AlignRight size={48} color="#fff"></AlignRight>
+          </div>
         </div>
-    
-     
-        <div className={close? styles.HeaderResponsive : styles.hide}>
-          <div className={ close? styles.close : styles.closeHide} onClick={toggleMenu}>
+
+        <div className={close ? styles.HeaderResponsive : styles.hide}>
+          <div
+            className={close ? styles.close : styles.closeHide}
+            onClick={toggleMenu}>
             X
           </div>
-        <div className={styles.menu}>
-        <ul>
+          <div className={styles.menu}>
+            <ul>
               <li>
                 <Link>{trans("home")}</Link>
               </li>
@@ -57,13 +64,12 @@ export default function HeaderResponsive() {
                 <Link>{trans("register")}</Link>
               </li>
               <li>
-              <button onClick={changeLang}>{lang ? "en" : "ar"}</button>
+                <button onClick={changeLang}>{lang ? "en" : "ar"}</button>
               </li>
             </ul>
+          </div>
         </div>
-        </div>
-        </div>
-     
+      </div>
     </>
   );
 }

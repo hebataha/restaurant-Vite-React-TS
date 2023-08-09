@@ -1,32 +1,44 @@
 import { trans } from "@mongez/localization";
 import styles from "./style.module.scss";
-import Logo from "/public/logo.png"
+import Logo from "/public/logo.png";
 import { Link } from "@mongez/react-router";
 import Burger from "/public/footerImages/burger.jpeg";
 import Dish from "/public/footerImages/dish.jpeg";
 import Potato from "/public/footerImages/potato.jpeg";
 import Pancake from "/public/footerImages/bancake.jpeg";
+import { SignRight } from "tabler-icons-react";
 
 export default function Footer() {
   return (
     <div className={`${styles.footer}`}>
       <div className=" container">
+
         <div className={`${styles.footerElements}`}>
           <div className={styles.info}>
-            <img className={styles.logo} src={Logo}/>
+            <img className={styles.logo} src={Logo} />
             <p>
               Be the first to know about new collections, special events, and
               what’s going on at Our Place. We are creative
             </p>
           </div>
           <div className={styles.touch}>
-            <h3>Get In Touch</h3>
-            <p>Silk St, Barbican, London E2Y, UK</p>
+            <h3>
+            <SignRight size={30} color="#dd5903" />
+              <span>
+              {trans("touch")}
+              </span>
+            </h3>
+            <p>{trans("addressStreet")}</p>
             <p>+39-055-123456</p>
             <p>booking@webexample.com</p>
           </div>
           <div className={styles.pages}>
-            <h3>pages</h3>
+            <h3>
+            <SignRight size={30} color="#dd5903" />
+              <span>
+              {trans("pages")}
+              </span>
+            </h3>
             <ul>
               <li>
                 <Link>{trans("home")}</Link>
@@ -53,22 +65,28 @@ export default function Footer() {
             </ul>
           </div>
           <div className={styles.imagesWrapper}>
-          <div className={styles.images}>
+            <div className={styles.images}>
             <div>
-              <img src={Burger} />
+                <img src={Pancake} />
+              </div>
+              <div>
+                <img src={Burger} />
+              </div>
+              <div>
+                <img src={Dish} />
+              </div>
             </div>
-            <div>
-              <img src={Dish} />
+            <div className={styles.images}>
+              <div>
+                <img src={Pancake} />
+              </div>
+              <div>
+                <img src={Potato} />
+              </div>
+              <div>
+                <img src={Burger} />
+              </div>
             </div>
-          </div>
-          <div className={styles.images}>
-            <div>
-              <img src={Pancake} />
-            </div>
-            <div>
-              <img src={Potato} />
-            </div>
-          </div>
           </div>
         </div>
       </div>

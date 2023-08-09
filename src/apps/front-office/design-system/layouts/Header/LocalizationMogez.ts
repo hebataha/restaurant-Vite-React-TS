@@ -14,7 +14,12 @@ const translations: TranslationsList = {
         shop:"Shop",
         login:"login",
         signIn:"SignIn",
-        register:"Register"
+        register:"Register",
+        pages:"Pages",
+        touch:"get in touch",
+        addressStreet:" Melssa Bldgs. 18 Ard El-Golf, Heliopolis",
+        description:"Be the first to know about new collections, special events, and what’s going on at Our Place. We are creative ",
+
     },
     ar: {
         home:"الرئيسية",
@@ -24,6 +29,10 @@ const translations: TranslationsList = {
         shop:"المتجر",
         login:"الدخول",
         register:"التسجيل",
+        pages:"الصفحات",
+        touch:"ابقي علي تواصل",
+        addressStreet:"عمارات ملسا. 18 ارض الجولف ، مصر الجديدة ",
+        description:"كن أول من يعرف عن المجموعات الجديدة والأحداث الخاصة وما يحدث في Our Place. نحن مبدعون ",
     },
   };
 
