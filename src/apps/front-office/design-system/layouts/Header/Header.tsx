@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import styles from "./style.module.scss";
 import HeaderResponsive from "../HeaderResponsive/HeaderResponsive";
 import { trans } from "@mongez/localization";
+import Logo from "/public/logo.png";
 import { current } from "@mongez/react";
 // import Logo from ""
 
@@ -19,7 +20,7 @@ export default function Header() {
       <header>
         <nav className="container">
           <div className={styles.logo}>
-            <img src=""/>
+            <img src={Logo}/>
           </div>
           <div className={styles.navBar}>
             <ul>

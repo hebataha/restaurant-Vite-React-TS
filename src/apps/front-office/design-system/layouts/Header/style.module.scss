@@ -12,9 +12,16 @@ header {
 
     padding: 10px;
     .logo {
-      color: #fff;
-      font-weight: 600;
-      font-size: 2rem;
+    font-weight: 600;
+    font-size: 2rem;
+    width: 110px;
+    height: 110px;
+    background: #fff;
+    border-radius: 50%;
+    img{
+      width:100%;
+      height: 100%;
+    }
     }
 
     .navBar {
