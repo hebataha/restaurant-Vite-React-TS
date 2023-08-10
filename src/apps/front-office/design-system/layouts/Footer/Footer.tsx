@@ -20,6 +20,7 @@ export default function Footer() {
               {trans("descriptionFooter")}
             </p>
           </div>
+ 
           <div className={styles.touch}>
             <h3>
             <SignRight size={30} color="#dd5903" />

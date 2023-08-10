@@ -1,7 +1,6 @@
 import { Link, changeLocaleCode } from "@mongez/react-router";
 import styles from "./style.module.scss";
 import { useState } from "react";
-import { strings } from "../Header/Localization";
 import { trans } from "@mongez/localization";
 import { current } from "@mongez/react";
 export type HeaderResponsiveProps = {

@@ -10,6 +10,7 @@ import { current } from "@mongez/react";
 export default function Header() {
   const [lang, setLang] = useState(true);
 
+
   const changeLang = () => {
     const localeCode = current("localeCode") === "en" ? "ar" : "en";
     changeLocaleCode(localeCode);
