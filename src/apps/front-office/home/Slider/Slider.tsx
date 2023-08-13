@@ -23,8 +23,7 @@ export default function Slider(props: SlderProps) {
         spaceBetween={0}
         slidesPerView={1}
         navigation={true}
-        autoplay={{  delay: 2500,
-          disableOnInteraction: false,}}
+        autoplay={{ delay: 2500, disableOnInteraction: false }}
         pagination={{ clickable: true }}
         onSlideChange={() => console.log("slide change")}
         onSwiper={swiper => console.log(swiper)}>
@@ -34,7 +33,9 @@ export default function Slider(props: SlderProps) {
             <div className={styles.HeaderSlider}>
               <img src={Rest1} />
               <div className={styles.info}>
-                <h1>Delicious Foods With</h1>
+                <h1>
+                  Delicious <span>Foods</span> With
+                </h1>
                 <h1> Wonderful Eatin</h1>
                 <button>view more</button>
               </div>
@@ -47,7 +48,9 @@ export default function Slider(props: SlderProps) {
             <div className={styles.HeaderSlider}>
               <img src={Rest2} />
               <div className={styles.info}>
-                <h1>Delicious Foods With</h1>
+                <h1>
+                  Delicious <span>Foods</span> With
+                </h1>
                 <h1> Wonderful Eatin</h1>
                 <button>view more</button>
               </div>
@@ -60,7 +63,9 @@ export default function Slider(props: SlderProps) {
             <div className={styles.HeaderSlider}>
               <img src={Rest3} />
               <div className={styles.info}>
-                <h1>Delicious Foods With</h1>
+                <h1>
+                  Delicious <span>Foods</span> With
+                </h1>
                 <h1> Wonderful Eatin</h1>
                 <button>view more</button>
               </div>
@@ -73,7 +78,9 @@ export default function Slider(props: SlderProps) {
             <div className={styles.HeaderSlider}>
               <img src={Rest4} />
               <div className={styles.info}>
-                <h1>Delicious Foods With</h1>
+                <h1>
+                  Delicious <span>Foods</span> With
+                </h1>
                 <h1> Wonderful Eatin</h1>
                 <button>view more</button>
               </div>
