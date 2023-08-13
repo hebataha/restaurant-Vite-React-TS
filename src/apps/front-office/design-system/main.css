@@ -1,3 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500&family=Cairo+Play:wght@500&family=Josefin+Sans:wght@400;500&family=Oswald:wght@500&family=Ubuntu:ital,wght@1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@500&family=Josefin+Sans:wght@400;500&family=Oswald:wght@500&family=Ubuntu:ital,wght@1,500&display=swap');
+html{
+  /* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+font-family: 'Bricolage Grotesque' !important;
+
+}
+
+
+html[dir="rtl"]{
+  font-family: 'Cairo Play' !important;
+
+}
+#root {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  /* text-align: center; */
+  width:100%
+}
+.container{
+  max-width: 1420px;
+  margin: 0 auto;
+}
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -6,6 +36,15 @@ ul{
   padding-inline-start: 0;
   margin: 0;
 
+}
+
+@media(max-width:1200px){
+  html{
+    font-size:10px;
+  }
+  h1{
+    font-size: 2rem !important;
+  }
 }
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;

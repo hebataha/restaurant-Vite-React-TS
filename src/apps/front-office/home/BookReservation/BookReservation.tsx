@@ -1,3 +1,4 @@
+import { trans } from "@mongez/localization";
 import styles from "./style.module.scss";
 export type BookReservationProps = {
   children: React.ReactNode;
@@ -10,25 +11,25 @@ export default function BookReservation(props: BookReservationProps) {
         <form>
           <div>
             <label>
-              NUMBER OF GUEST <sup>*</sup>
+              {trans("number")} <sup>*</sup>
             </label>
-            <input type="text" placeholder="person" />
+            <input type="text" placeholder={trans("person")} />
           </div>
           <div>
             <label>
-            SELECT DATE <sup>*</sup>
+           {trans("date")} <sup>*</sup>
             </label>
             <input type="date" placeholder="person"/>
           </div>
           <div>
             <label>
-            SELECT time  <sup>*</sup>
+            {trans("time")} <sup>*</sup>
             </label>
             <input type="time" />
           </div>
           <div>
             <button>
-              book reservation
+              {trans("book")}
             </button>
           </div>
         </form>
