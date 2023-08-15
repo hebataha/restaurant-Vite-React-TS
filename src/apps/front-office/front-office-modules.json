@@ -38,6 +38,12 @@
                 "/layout"
             ],
             "name": "layout"
+        },
+        {
+            "entry": [
+                "/informative-pages"
+            ],
+            "name": "informative-pages"
         }
     ]
 }
