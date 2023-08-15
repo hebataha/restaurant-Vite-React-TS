@@ -1,23 +1,56 @@
-.mainDishes{
-    .mainDishesContainer{
-        .TitleShape{
-            h1{
-
-            }
-            p{
-
-            }
-        }
-        .menuWrapper{
-            .menuImg{
-
-            }
-            .menuInfo{
-
-            }
-            .menuButton{
-                
-            }
-        }
+.mainDishes {
+  padding: 60px 0;
+  .mainDishesContainer {
+    .menuTitle {
+      text-align: center;
+      h1 {
+      }
+      p {
+        font-size: 1.5rem;
+        width: 50%;
+        margin: auto;
+        line-height: 1.5;
+      }
     }
+    .menuList {
+        display: flex;
+        justify-content: space-between;
+        margin: 15px 0 ;
+        flex-wrap: wrap;
+        @media(max-width:1400px){
+            flex-direction: column;
+            align-items: center;
+        }
+      .menuWrapper {
+        display: flex;
+        align-items: center;
+        margin: 15px 0 ;
+     flex-basis: 50%;
+        gap: 30px;
+      
+        .menuImg {
+          width: 130px;
+          height: 130px;
+          img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+          }
+        }
+        .menuInfo {
+          h3 {
+            font-size: 2rem;
+          }
+          p {
+            font-size: 1.2rem;
+          }
+        }
+        .menuButton {
+          button {
+            background-color: #f4f4f4;
+          }
+        }
+      }
+    }
+  }
 }
