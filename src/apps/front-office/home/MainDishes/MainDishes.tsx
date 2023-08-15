@@ -1,6 +1,7 @@
 import styles from "./style.module.scss";
 import TitleShape from "/public/welcomeSection/title-shape.webp";
 import Burger from "/public/mainDishes/burger.webp";
+import { trans } from "@mongez/localization";
 export type MainDishesProps = {
   children: React.ReactNode;
 };
@@ -12,20 +13,21 @@ export default function MainDishes(props: MainDishesProps) {
           <div className={styles.mainDishesContainer}>
             <div className={styles.menuTitle}>
               <img src={TitleShape} />
-              <h1>Starters & Main Dishes</h1>
-              <p>
-                It’s the story of an everlasting love affair, Dieter Delicioz
-                and the Atlantic Ocean in the big air.
-              </p>
+              <h1>
+                {trans("Starters")}
+                {""} {trans("mainDishes")}
+              </h1>
+              <p>{trans("dishesDescription")}</p>
             </div>
+
             <div className={styles.menuList}>
               <div className={styles.menuWrapper}>
                 <div className={styles.menuImg}>
                   <img src={Burger} />
                 </div>
                 <div className={styles.menuInfo}>
-                  <h3>Chicha Morada</h3>
-                  <p>Beetroot And Datterini, Goat Cheese, Ricotta</p>
+                  <h3>{trans("Chicha")}</h3>
+                  <p>{trans("listDes")}</p>
                 </div>
                 <div className={styles.menuButton}>
                   <button>$33.00</button>
@@ -45,7 +47,6 @@ export default function MainDishes(props: MainDishesProps) {
                 </div>
               </div>
 
-              
               <div className={styles.menuWrapper}>
                 <div className={styles.menuImg}>
                   <img src={Burger} />
@@ -59,7 +60,6 @@ export default function MainDishes(props: MainDishesProps) {
                 </div>
               </div>
             </div>
-       
           </div>
         </div>
       </div>

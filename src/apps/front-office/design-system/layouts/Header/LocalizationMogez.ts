@@ -38,6 +38,12 @@ const translations: TranslationsList = {
       emailFind:"kiara.sanford@keeling.biz",
       mon:"Mon - Thu: 10 AM - 02 AM",
       fri:"Fri - Sun: 10 AM - 02 AM",
+      Starters :"Starters &",
+      mainDishes:"Main Dishes",
+      dishesDescription:"It’s the story of an everlasting love affair, Dieter Delicioz and the Atlantic Ocean in the big air.",
+      Chicha :"Chicha Morada",
+      listDes:"Beetroot And Datterini, Goat Cheese, Ricotta",
+
 
 
 
@@ -73,6 +79,11 @@ const translations: TranslationsList = {
         emailFind:"kiara.sanford@keeling.biz",
         mon:"الإثنين - الخميس: 10 صباحًا - 02 صباحًا",
         fri:"الجمعة - الأحد: 10 صباحًا - 02 صباحًا",
+        Starters :"المقبلات  ",
+        mainDishes:"و الاطباق الرئيسية",
+        dishesDescription:"إنها قصة علاقة حب أبدية ، ديتر ديليشوز والمحيط الأطلسي في الهواء الكبير.",
+        Chicha :"برجر",
+        listDes:"الشمندر والداتيريني ، جبن الماعز ، الريكوتا",
   
       },
   };
