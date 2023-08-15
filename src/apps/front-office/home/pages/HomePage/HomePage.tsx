@@ -6,6 +6,8 @@ import { Link } from "@mongez/react-router";
 import Slider from "../../Slider/Slider";
 import BookReservation from "../../BookReservation/BookReservation";
 import Welcome from "../../Welcome/Welcome";
+import FindFood from "../../FindFood/FindFood";
+import MainDishes from "../../MainDishes/MainDishes";
 
 
 export default function HomePage() {
@@ -16,6 +18,8 @@ export default function HomePage() {
         <Slider/>
         <BookReservation/>
         <Welcome/>
+        <FindFood/>
+        <MainDishes/>
     </div>
     </>
   );

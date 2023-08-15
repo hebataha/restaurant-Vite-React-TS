@@ -32,6 +32,12 @@ const translations: TranslationsList = {
       Luxury :"Luxury Restaurant ",
       discFood:"It’s the story of an everlasting love affair, Dieter Delicioz and the Atlantic Ocean. Our proximity to the abundant riches of the sea and Portugal’s excellent produce.",
       moreFood:"more food",
+      findFood:"Find Food Lounge",
+      austria:"Austria",
+      phoneFind:"1-579-854-5574",
+      emailFind:"kiara.sanford@keeling.biz",
+      mon:"Mon - Thu: 10 AM - 02 AM",
+      fri:"Fri - Sun: 10 AM - 02 AM",
 
 
 
@@ -61,6 +67,13 @@ const translations: TranslationsList = {
        Luxury :"مطعمنا  الفاخر",
        discFood:"إنها قصة علاقة حب أبدية ، ديتر ديليشوز والمحيط الأطلسي. قربنا من ثروات البحر الوفيرة ومنتجات البرتغال الممتازة.",
         moreFood:"المزيد من الطعام",
+        findFood:"ابحث عن صالة الطعام  ",
+        austria:"استراليا",
+        phoneFind:"1-579-854-5574",
+        emailFind:"kiara.sanford@keeling.biz",
+        mon:"الإثنين - الخميس: 10 صباحًا - 02 صباحًا",
+        fri:"الجمعة - الأحد: 10 صباحًا - 02 صباحًا",
+  
       },
   };
 

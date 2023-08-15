@@ -9,7 +9,7 @@ export type HeaderResponsiveProps = {
 import { AlignRight } from "tabler-icons-react";
 
 export default function HeaderResponsive() {
-  const [close, setClose] = useState(true);
+  const [close, setClose] = useState(false);
   const [lang, setLang] = useState(true);
 
   const changeLang = () => {

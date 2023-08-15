@@ -71,8 +71,11 @@
 
 
 html[dir*="rtl"] {
-  svg{
-    transform: scaleX(-1);
-
+  .footer{
+    svg{
+      transform: scaleX(-1);
+  
+    }
   }
+
 }

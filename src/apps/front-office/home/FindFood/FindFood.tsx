@@ -1,10 +1,53 @@
+import styles from "./style.module.scss";
+import TitleShape from "/public/welcomeSection/title-shape.webp";
+import Bg from "/public/findFoodSection/bg.webp";
+import {BrandFacebook , BrandTwitter , BrandBehance ,BrandYoutube , BrandLinkedin} from "tabler-icons-react"
+import { trans } from "@mongez/localization";
 export type FindFoodProps = {
   children: React.ReactNode;
 };
 export default function FindFood(props: FindFoodProps) {
   return (
     <>
-      <h1>FindFood</h1>
+      <div className={styles.findFood}>
+        <div className={styles.findFoodWrapper}>
+          <div className={styles.info}>
+            <img src={TitleShape}/>
+            <h1>
+            {trans("findFood")}
+
+            </h1>
+            <ul>
+              <li>
+              {trans("austria")}
+              
+              </li>
+              <li>
+              {trans("phoneFind")}
+              </li>
+              <li>
+              {trans("emailFind")}
+              </li>
+              <li>
+              {trans("mon")}
+              </li>
+              <li>
+              {trans("fri")}
+              </li>
+            </ul>
+            <ul className={styles.social}>
+                <BrandFacebook size={30} color="#bcbcbc"></BrandFacebook>
+                <BrandTwitter size={30} color="#bcbcbc"></BrandTwitter>
+                <BrandBehance size={30} color="#bcbcbc"></BrandBehance>
+                <BrandYoutube size={30} color="#bcbcbc"></BrandYoutube>
+                <BrandLinkedin size={30} color="#bcbcbc"></BrandLinkedin>
+            </ul>
+          </div>
+          <div className={styles.bg}>
+            <img src={Bg}/>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
