@@ -38,7 +38,6 @@ export default function Gallary(props: GalleryProps) {
                 width: 768,
                 slidesPerView: 2,
               },
-         
             }}
             modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={30}
