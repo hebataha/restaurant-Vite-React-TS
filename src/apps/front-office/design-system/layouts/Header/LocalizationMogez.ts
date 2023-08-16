@@ -84,7 +84,7 @@ const translations: TranslationsList = {
         dishesDescription:"إنها قصة علاقة حب أبدية ، ديتر ديليشوز والمحيط الأطلسي في الهواء الكبير.",
         Chicha :"برجر",
         listDes:"الشمندر والداتيريني ، جبن الماعز ، الريكوتا",
-  
+      
       },
   };
 

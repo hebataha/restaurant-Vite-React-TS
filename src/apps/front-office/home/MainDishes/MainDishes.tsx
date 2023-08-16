@@ -33,27 +33,25 @@ export default function MainDishes(props: MainDishesProps) {
                   <button>$33.00</button>
                 </div>
               </div>
-
               <div className={styles.menuWrapper}>
                 <div className={styles.menuImg}>
                   <img src={Burger} />
                 </div>
                 <div className={styles.menuInfo}>
-                  <h3>Chicha Morada</h3>
-                  <p>Beetroot And Datterini, Goat Cheese, Ricotta</p>
+                  <h3>{trans("Chicha")}</h3>
+                  <p>{trans("listDes")}</p>
                 </div>
                 <div className={styles.menuButton}>
                   <button>$33.00</button>
                 </div>
               </div>
-
               <div className={styles.menuWrapper}>
                 <div className={styles.menuImg}>
                   <img src={Burger} />
                 </div>
                 <div className={styles.menuInfo}>
-                  <h3>Chicha Morada</h3>
-                  <p>Beetroot And Datterini, Goat Cheese, Ricotta</p>
+                  <h3>{trans("Chicha")}</h3>
+                  <p>{trans("listDes")}</p>
                 </div>
                 <div className={styles.menuButton}>
                   <button>$33.00</button>
@@ -61,6 +59,12 @@ export default function MainDishes(props: MainDishesProps) {
               </div>
             </div>
           </div>
+      
+            <div className={styles.buttonWrapper}>
+            <button> {trans("viewMore")}</button> 
+            </div>
+         
+   
         </div>
       </div>
     </>
