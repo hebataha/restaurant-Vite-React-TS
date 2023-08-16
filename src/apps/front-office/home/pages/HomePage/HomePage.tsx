@@ -8,6 +8,7 @@ import BookReservation from "../../BookReservation/BookReservation";
 import Welcome from "../../Welcome/Welcome";
 import FindFood from "../../FindFood/FindFood";
 import MainDishes from "../../MainDishes/MainDishes";
+import Blog from "../../Blog/Blog";
 
 
 export default function HomePage() {
@@ -20,6 +21,7 @@ export default function HomePage() {
         <Welcome/>
         <FindFood/>
         <MainDishes/>
+        <Blog/>
     </div>
     </>
   );

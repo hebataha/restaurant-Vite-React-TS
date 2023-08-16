@@ -1,17 +1,6 @@
 .mainDishes {
   padding: 60px 0;
   .mainDishesContainer {
-    .menuTitle {
-      text-align: center;
-      h1 {
-      }
-      p {
-        font-size: 1.5rem;
-        width: 50%;
-        margin: auto;
-        line-height: 1.5;
-      }
-    }
     .menuList {
         display: flex;
         justify-content: space-between;
