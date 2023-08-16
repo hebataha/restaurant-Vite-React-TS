@@ -24,9 +24,22 @@ export default function Gallary(props: GalleryProps) {
   return (
     <>
       <div className={styles.gallery}>
-        <TitleComponent color={color} gallery={gallery}/>
+        <TitleComponent color={color} gallery={gallery} />
         <div className="container">
           <Swiper
+            breakpoints={{
+              // when window width is >= 640px
+              480: {
+                width: 640,
+                slidesPerView: 2,
+              },
+              // when window width is >= 768px
+              768: {
+                width: 768,
+                slidesPerView: 2,
+              },
+         
+            }}
             modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={30}
             slidesPerView={4}
