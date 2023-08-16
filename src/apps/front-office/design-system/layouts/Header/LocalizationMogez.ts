@@ -46,7 +46,9 @@ const translations: TranslationsList = {
     listDes: "Beetroot And Datterini, Goat Cheese, Ricotta",
     blog: "Our Blog",
     gallery: "Gallery",
-    dateBlog:"march , 22 April",
+    dateBlog: "march , 22 April",
+    blogDes: "Food is the foundation of true happiness ",
+    blogTitle: "Dinner",
   },
   ar: {
     home: "الرئيسية",
@@ -89,7 +91,9 @@ const translations: TranslationsList = {
     listDes: "الشمندر والداتيريني ، جبن الماعز ، الريكوتا",
     blog: " المدونة",
     gallery: "المعرض",
-    dateBlog:"مارس ، 22 أبريل ",
+    dateBlog: "مارس ، 22 أبريل ",
+    blogDes: "الطعام هو أساس السعادة الحقيقية  ",
+    blogTitle: "غداء",
   },
 };
 

@@ -18,11 +18,11 @@ export default function Blog(props: BlogProps) {
               <div className={styles.overlay}></div>
               <img src={Blog1} />
               <div className={styles.badge}>
-                <span>march , 22 April</span>
+                <span>{trans("dateBlog")}</span>
               </div>
               <div className={styles.info}>
-                <h4>fast food</h4>
-                <label>food is great</label>
+                <h4>{trans("blogTitle")}</h4>
+                <label>{trans("blogDes")}</label>
               </div>
             </div>
             <div className={styles.blogItem}>
@@ -32,19 +32,19 @@ export default function Blog(props: BlogProps) {
                 <span>{trans("dateBlog")}</span>
               </div>
               <div className={styles.info}>
-                <h4>fast food</h4>
-                <label>food is great</label>
+                <h4>{trans("blogTitle")}</h4>
+                <label>{trans("blogDes")}</label>
               </div>
             </div>
             <div className={styles.blogItem}>
               <div className={styles.overlay}></div>
               <img src={Blog1} />
               <div className={styles.badge}>
-                <span>march , 22 April</span>
+                <span>{trans("dateBlog")}</span>
               </div>
               <div className={styles.info}>
-                <h4>fast food</h4>
-                <label>food is great</label>
+                <h4>{trans("blogTitle")}</h4>
+                <label>{trans("blogDes")}</label>
               </div>
             </div>
           </div>
