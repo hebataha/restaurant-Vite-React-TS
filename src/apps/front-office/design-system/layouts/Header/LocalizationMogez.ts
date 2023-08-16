@@ -44,7 +44,8 @@ const translations: TranslationsList = {
       "It’s the story of an everlasting love affair, Dieter Delicioz and the Atlantic Ocean in the big air.",
     Chicha: "Chicha Morada",
     listDes: "Beetroot And Datterini, Goat Cheese, Ricotta",
-    blog:"Our Blog"
+    blog: "Our Blog",
+    gallery: "Gallery",
   },
   ar: {
     home: "الرئيسية",
@@ -85,7 +86,8 @@ const translations: TranslationsList = {
       "إنها قصة علاقة حب أبدية ، ديتر ديليشوز والمحيط الأطلسي في الهواء الكبير.",
     Chicha: "برجر",
     listDes: "الشمندر والداتيريني ، جبن الماعز ، الريكوتا",
-    blog:" المدونة"
+    blog: " المدونة",
+    gallery: "المعرض",
   },
 };
 

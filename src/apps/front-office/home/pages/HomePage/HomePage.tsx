@@ -9,6 +9,7 @@ import Welcome from "../../Welcome/Welcome";
 import FindFood from "../../FindFood/FindFood";
 import MainDishes from "../../MainDishes/MainDishes";
 import Blog from "../../Blog/Blog";
+import Gallary from "../../Gallary/Gallery";
 
 
 export default function HomePage() {
@@ -21,6 +22,7 @@ export default function HomePage() {
         <Welcome/>
         <FindFood/>
         <MainDishes/>
+        <Gallary/>
         <Blog/>
     </div>
     </>
