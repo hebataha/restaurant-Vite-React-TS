@@ -46,6 +46,7 @@ const translations: TranslationsList = {
     listDes: "Beetroot And Datterini, Goat Cheese, Ricotta",
     blog: "Our Blog",
     gallery: "Gallery",
+    dateBlog:"march , 22 April",
   },
   ar: {
     home: "الرئيسية",
@@ -88,6 +89,7 @@ const translations: TranslationsList = {
     listDes: "الشمندر والداتيريني ، جبن الماعز ، الريكوتا",
     blog: " المدونة",
     gallery: "المعرض",
+    dateBlog:"مارس ، 22 أبريل ",
   },
 };
 
