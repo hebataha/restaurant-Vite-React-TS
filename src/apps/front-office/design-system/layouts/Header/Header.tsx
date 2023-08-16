@@ -48,7 +48,7 @@ export default function Header() {
                 <Link>{trans("register")}</Link>
               </li>
               <li>
-              <button onClick={changeLang}>{lang ? "en" : "ar"}</button>
+              <button onClick={changeLang}>{lang ? "EN" : "AR"}</button>
               </li>
             </ul>
           </div>

@@ -8,8 +8,9 @@ export type TitleComponentProps = {
   welcome: boolean;
   find: boolean;
   dish: boolean;
+  blog: boolean;
 };
-export default function TitleComponent({ color, welcome, find, dish }) {
+export default function TitleComponent({ color, welcome, find, dish, blog }) {
   return (
     <>
       <div className={styles.menuTitle}>
@@ -20,6 +21,7 @@ export default function TitleComponent({ color, welcome, find, dish }) {
           {find && trans("findFood")}
           {dish && trans("Starters")}
           {""} {dish && trans("mainDishes")}
+          {blog && trans("blog")}
         </h1>
         <p>
           {find && ""}
