@@ -1,9 +1,17 @@
-.sliderWrapper {
+.gallery{
+  background: #f6f6f6;
   padding: 60px 0;
-  height: 500px;
 
-  img {
-    width: 100%;
-    height: 100%;
+  .sliderWrapper {
+    height: 500px;
+    padding: 60px 0;
+
+  
+  
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
+  
 }
