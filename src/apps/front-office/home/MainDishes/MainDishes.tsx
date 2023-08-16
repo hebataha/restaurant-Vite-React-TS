@@ -8,14 +8,14 @@ export type MainDishesProps = {
 };
 export default function MainDishes(props: MainDishesProps) {
   const [color, setColor] = useState(true);
-  const [welcome, setWelcome] = useState(true);
+  const [dish, setDish] = useState(true);
 
   return (
     <>
       <div className={styles.mainDishes}>
         <div className="container">
           <div className={styles.mainDishesContainer}>
-            <TitleComponent color={color} welcome={welcome} />
+            <TitleComponent color={color} dish={dish} />
             <div className={styles.menuList}>
               <div className={styles.menuWrapper}>
                 <div className={styles.menuImg}>

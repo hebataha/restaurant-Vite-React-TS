@@ -11,6 +11,7 @@ export type WelcomeProps = {
 
 export default function Welcome(props: WelcomeProps) {
   const [color, setColor] = useState(true);
+  const [welcome, setWelcome] = useState(true);
   return (
     <>
       <div className={styles.welcomeSectionWrapper}>
@@ -20,7 +21,7 @@ export default function Welcome(props: WelcomeProps) {
               <img src={Image} />
             </div>
             <div className={styles.info}>
-              <TitleComponent color={color}/>
+              <TitleComponent color={color} welcome={welcome} />
               <button> {trans("moreFood")}</button>
             </div>
           </div>
