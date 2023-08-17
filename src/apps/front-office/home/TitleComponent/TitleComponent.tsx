@@ -9,8 +9,16 @@ export type TitleComponentProps = {
   find: boolean;
   dish: boolean;
   blog: boolean;
+  gallery: boolean;
 };
-export default function TitleComponent({ color, welcome, find, dish, blog , gallery}) {
+export default function TitleComponent({
+  color,
+  welcome,
+  find,
+  dish,
+  blog,
+  gallery,
+}: TitleComponentProps) {
   return (
     <>
       <div className={styles.menuTitle}>

@@ -21,7 +21,7 @@ export default function Welcome(props: WelcomeProps) {
               <img src={Image} />
             </div>
             <div className={styles.info}>
-              <TitleComponent color={color} welcome={welcome} />
+              <TitleComponent color welcome />
               <button> {trans("moreFood")}</button>
             </div>
           </div>

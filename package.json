@@ -38,7 +38,7 @@
         "react-dom": "^18.2.0",
         "react-localization": "^1.0.19",
         "sass": "1.65.1",
-        "swiper": "^10.1.0",
+        "swiper": "^10.2.0",
         "tabler-icons-react": "^1.56.0"
     },
     "devDependencies": {

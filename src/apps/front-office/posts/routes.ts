@@ -7,8 +7,9 @@ publicRoutes([
   {
     path: URLS.posts,
     component: PostsPage,
-  },{
-    path:URLS.pages.aboutUs,
-    component:About
-  }
+  },
+  {
+    path: URLS.pages.aboutUs,
+    component: About,
+  },
 ]);
