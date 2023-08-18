@@ -55,6 +55,8 @@ const translations: TranslationsList = {
       "A distinctive, well-preserved and comfortable space, high-quality products, authentic cuisine, food & drinks are done flawlessly.",
     bookAbout: "Book Your Table Today. Book Now!",
     bookButton: "book a tabel",
+    why: "Why People Choose Us ?",
+  
   },
   ar: {
     home: "الرئيسية",
@@ -106,6 +108,7 @@ const translations: TranslationsList = {
       "مساحة مميزة ومحفوظة جيدًا ومريحة ، ومنتجات عالية الجودة ، ومأكولات أصيلة ، وأطعمة ومشروبات مصنوعة بلا عيب.",
     bookAbout: "احجز طاولتك اليوم. احجز الآن!",
     bookButton: "احجز طاولة    ",
+    why: "لماذا يختارنا زوارنا    ",
   },
 };
 
