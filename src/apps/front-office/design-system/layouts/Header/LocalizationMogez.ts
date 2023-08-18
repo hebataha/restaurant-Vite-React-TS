@@ -49,6 +49,12 @@ const translations: TranslationsList = {
     dateBlog: "march , 22 April",
     blogDes: "Food is the foundation of true happiness ",
     blogTitle: "Dinner",
+    aboutUs: "ABOUT US",
+    aboutDis: "Out know-how and experience has been out main value",
+    aboutTitle:
+      "A distinctive, well-preserved and comfortable space, high-quality products, authentic cuisine, food & drinks are done flawlessly.",
+    bookAbout: "Book Your Table Today. Book Now!",
+    bookButton: "book a tabel",
   },
   ar: {
     home: "الرئيسية",
@@ -94,6 +100,12 @@ const translations: TranslationsList = {
     dateBlog: "مارس ، 22 أبريل ",
     blogDes: "الطعام هو أساس السعادة الحقيقية  ",
     blogTitle: "غداء",
+    aboutUs: "من نحن",
+    aboutDis: "كانت الدراية والخبرة الخارجة هي هدفنا",
+    aboutTitle:
+      "مساحة مميزة ومحفوظة جيدًا ومريحة ، ومنتجات عالية الجودة ، ومأكولات أصيلة ، وأطعمة ومشروبات مصنوعة بلا عيب.",
+    bookAbout: "احجز طاولتك اليوم. احجز الآن!",
+    bookButton: "احجز طاولة    ",
   },
 };
 

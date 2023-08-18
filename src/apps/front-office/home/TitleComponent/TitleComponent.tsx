@@ -10,6 +10,7 @@ export type TitleComponentProps = {
   dish: boolean;
   blog: boolean;
   gallery: boolean;
+  about:boolean
 };
 export default function TitleComponent({
   color,
@@ -18,6 +19,7 @@ export default function TitleComponent({
   dish,
   blog,
   gallery,
+  about
 }: TitleComponentProps) {
   return (
     <>
@@ -31,6 +33,7 @@ export default function TitleComponent({
           {""} {dish && trans("mainDishes")}
           {blog && trans("blog")}
           {gallery && trans("gallery")}
+          {about && trans("aboutTitle")}
         </h1>
         <p>
           {find && ""}

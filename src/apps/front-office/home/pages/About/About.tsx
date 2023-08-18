@@ -1,4 +1,7 @@
 import React from "react";
+import AboutHeader from "./AboutHeader/AboutHeader";
+import TitleComponent from "../../TitleComponent/TitleComponent";
+import BookNow from "./BookNow/BookNow";
 
 export type AboutProps = {
   children: React.ReactNode;
@@ -6,7 +9,12 @@ export type AboutProps = {
 function _About(props: AboutProps) {
   return (
     <>
-      <h1>About</h1>
+      <AboutHeader />
+      <div className="container">
+        <TitleComponent about color />
+        </div>
+        <BookNow/>
+     
     </>
   );
 }
