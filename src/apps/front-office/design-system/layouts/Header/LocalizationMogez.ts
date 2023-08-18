@@ -56,7 +56,11 @@ const translations: TranslationsList = {
     bookAbout: "Book Your Table Today. Book Now!",
     bookButton: "book a tabel",
     why: "Why People Choose Us ?",
-  
+    meat: "Popular Dishes",
+    chicken: "Neat & Clean Foods",
+    cup: "Experience Chefs",
+    menuDescription:
+      "They cannot foresee the pain & trouble that are bound to ensue",
   },
   ar: {
     home: "الرئيسية",
@@ -109,6 +113,11 @@ const translations: TranslationsList = {
     bookAbout: "احجز طاولتك اليوم. احجز الآن!",
     bookButton: "احجز طاولة    ",
     why: "لماذا يختارنا زوارنا    ",
+    meat: "أطباق شعبية",
+    chicken: "أغذية نظيفة ومرتبة",
+    cup: "خبرة الطهاة",
+    menuDescription:
+      "لا يمكنهم توقع الألم والمتاعب التي لا بد أن تترتب على ذلك",
   },
 };
 
