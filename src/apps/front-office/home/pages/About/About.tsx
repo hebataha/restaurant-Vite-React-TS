@@ -14,11 +14,10 @@ function _About(props: AboutProps) {
       <AboutHeader />
       <div className="container">
         <TitleComponent about color />
-        </div>
-        <BookNow/>
-        <Blog/>
-        <FoodItems/>
-     
+      </div>
+      <BookNow />
+      <Blog />
+      <FoodItems />
     </>
   );
 }

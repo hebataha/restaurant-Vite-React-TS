@@ -19,7 +19,7 @@ export const routerConfigurations: RouterConfigurations = {
     ),
     loaders: {
       app: (app: string) => {
-        return import(`./../apps/${app}/${app}-provider.ts`);
+        return import(`./../apps/${app}/${app}-provider`);
       },
       module: (app: string, module: string) => {
         return import(`./../apps/${app}/${module}/provider.ts`);
