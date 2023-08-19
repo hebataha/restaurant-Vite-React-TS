@@ -1,6 +1,6 @@
 import { trans } from "@mongez/localization";
 import styles from "./style.module.scss";
-import LoginImg from "/public/login/login.avif";
+import LoginImg from "/public/register/register.webp";
 export type RegisterProps = {
   children: React.ReactNode;
 };
