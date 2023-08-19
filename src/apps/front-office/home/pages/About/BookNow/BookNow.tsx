@@ -4,7 +4,7 @@ import { BorderAll } from "tabler-icons-react";
 export type BookNowProps = {
   children: React.ReactNode;
 };
-export default function BookNow(props: BookNowProps) {
+export default function BookNow() {
   return (
     <>
       <div className={styles.bookNow}>

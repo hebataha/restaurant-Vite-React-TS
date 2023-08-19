@@ -2,23 +2,23 @@
   padding: 60px 0;
   .mainDishesContainer {
     .menuList {
-        display: flex;
-        justify-content: space-between;
-        margin: 15px 0 ;
-        flex-wrap: wrap;
-        @media(max-width:1400px){
-            flex-direction: column;
-            align-items: center;
-        }
+      display: flex;
+      justify-content: space-between;
+      margin: 15px 0;
+      flex-wrap: wrap;
+      @media (max-width: 1400px) {
+        flex-direction: column;
+        align-items: center;
+      }
       .menuWrapper {
         display: flex;
         align-items: center;
-        margin: 15px 0 ;
-     flex-basis: 50%;
+        margin: 15px 0;
+        flex-basis: 50%;
         gap: 30px;
-        @media(max-width:1400px){
-            width:100%;
-            justify-content: center;
+        @media (max-width: 1400px) {
+          width: 100%;
+          justify-content: center;
         }
         .menuImg {
           width: 130px;
@@ -30,9 +30,9 @@
           }
         }
         .menuInfo {
-            display: flex;
+          display: flex;
           width: 55%;
-            flex-direction: column;
+          flex-direction: column;
           h3 {
             font-size: 2rem;
           }
@@ -43,33 +43,31 @@
         .menuButton {
           button {
             background-color: #f4f4f4;
-            
           }
         }
       }
     }
   }
 
-  .buttonWrapper{
+  .buttonWrapper {
     display: flex;
     justify-content: center;
-    button{
+    button {
       width: 200px;
       height: 60px;
       // padding: 15px;
       margin: 20px 0;
       border-radius: 0;
-      transition: all .5s ease-in-out;
+      transition: all 0.5s ease-in-out;
       font-size: 1.2rem;
       background-color: #dd5903;
-      color:#fff;
+      color: #fff;
       text-align: center;
       &:hover {
         border: 3px solid hwb(23.67deg 1.18% 13.33% / 42%);
         background-color: hwb(23.67deg 1.18% 13.33% / 42%);
-        color:#fff
+        color: #fff;
       }
     }
   }
-
 }

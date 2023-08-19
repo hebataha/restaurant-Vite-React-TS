@@ -4,7 +4,7 @@ import styles from "./style.module.scss";
 
 export type TitleComponentProps = {
   children: React.ReactNode;
-  color: string;
+  color: boolean;
   welcome: boolean;
   find: boolean;
   dish: boolean;

@@ -13,26 +13,26 @@ export default function Login(props: LoginProps) {
           <div className={styles.overlay}></div>
           <div className={styles.loginHeader}>
             <img src={LoginImg} />
-            <div className="container">
+            <div className={styles.loginContainer}>
               <div className={styles.loginForm}>
-                <h1>{trans("login")}</h1>
                 <div className="container">
+                  <h1>{trans("login")}</h1>
                   <form>
                     <div>
                       <label>
-                        Username or email address <sup>*</sup> :
+                       {trans("userAndEmail")} <sup>*</sup> :
                       </label>
                       <input type="text" />
                     </div>
                     <div>
                       <label>
-                        password<sup>*</sup> :
+                        {trans("password")}<sup>*</sup> :
                       </label>
                       <input type="text" />
                     </div>
 
                     <button>
-                      <span>Login</span>
+                      <span>{trans("login")}</span>
                     </button>
                   </form>
                 </div>

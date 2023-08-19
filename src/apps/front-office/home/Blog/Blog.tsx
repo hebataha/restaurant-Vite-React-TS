@@ -6,7 +6,7 @@ import { trans } from "@mongez/localization";
 export type BlogProps = {
   children: React.ReactNode;
 };
-export default function Blog(props: BlogProps) {
+export default function Blog() {
   const [blog, setBlog] = useState(true);
   return (
     <>

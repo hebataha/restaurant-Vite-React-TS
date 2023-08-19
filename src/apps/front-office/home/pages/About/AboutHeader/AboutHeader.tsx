@@ -4,7 +4,7 @@ import HeaderVideo from "/public/AboutPage/header.mp4";
 export type AboutHeaderProps = {
   children: React.ReactNode;
 };
-export default function AboutHeader(props: AboutHeaderProps) {
+export default function AboutHeader() {
   return (
     <>
       <div className={styles.aboutHeader}>

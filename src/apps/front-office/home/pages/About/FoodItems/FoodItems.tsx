@@ -5,7 +5,7 @@ import { trans } from "@mongez/localization";
 export type FoodItemsProps = {
   children: React.ReactNode;
 };
-export default function FoodItems(props: FoodItemsProps) {
+export default function FoodItems() {
   return (
     <>
       <TitleComponent foodItems color />
