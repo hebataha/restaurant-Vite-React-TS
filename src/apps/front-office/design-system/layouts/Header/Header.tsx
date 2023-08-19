@@ -10,23 +10,22 @@ import { current } from "@mongez/react";
 export default function Header() {
   const [lang, setLang] = useState(true);
 
-
   const changeLang = () => {
     const localeCode = current("localeCode") === "en" ? "ar" : "en";
     changeLocaleCode(localeCode);
-    setLang((prevState) => !prevState);
+    setLang(prevState => !prevState);
   };
   return (
     <>
       <header>
         <nav className="container">
           <div className={styles.logo}>
-            <img src={Logo}/>
+            <img src={Logo} />
           </div>
           <div className={styles.navBar}>
             <ul>
               <li>
-                <Link >{trans("home")}</Link>
+                <Link>{trans("home")}</Link>
               </li>
               <li>
                 <Link href="/about-us">{trans("about")}</Link>
@@ -42,13 +41,13 @@ export default function Header() {
                 <Link>{trans("shop")}</Link>
               </li>
               <li>
-                <Link>{trans("login")}</Link>
+                <Link href="/login">{trans("login")}</Link>
               </li>
               <li>
-                <Link>{trans("register")}</Link>
+                <Link href="/register">{trans("register")}</Link>
               </li>
               <li>
-              <button onClick={changeLang}>{lang ? "EN" : "AR"}</button>
+                <button onClick={changeLang}>{lang ? "EN" : "AR"}</button>
               </li>
             </ul>
           </div>

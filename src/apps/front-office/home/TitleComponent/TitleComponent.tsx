@@ -27,7 +27,11 @@ export default function TitleComponent({
     <>
       <div className={styles.menuTitle}>
         <img src={TitleShape} />
-        <h1 style={{ color: color ? "#000" : "#fff" }}>
+        <h1
+          style={{
+            color: color ? "#000" : "#fff",
+            fontSize: foodItems ? "inhernet" :"2rem",
+          }}>
           {welcome && trans("welcome")}
           {""} {welcome && trans("Luxury")}
           {find && trans("findFood")}
@@ -36,7 +40,7 @@ export default function TitleComponent({
           {blog && trans("blog")}
           {gallery && trans("gallery")}
           {about && trans("aboutTitle")}
-          {foodItems &&  trans("why")}
+          {foodItems && trans("why")}
         </h1>
         <p>
           {find && ""}
