@@ -19,7 +19,7 @@ export default function Register(props: RegisterProps) {
                   <form>
                     <div>
                       <label>
-                        Username or email address <sup>*</sup> :
+                        {trans("userAndEmail")} <sup>*</sup> :
                       </label>
                       <input type="text" />
                     </div>
