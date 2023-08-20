@@ -70,7 +70,7 @@
                 &:focus {
                   outline: none;
                 }
-                ::placeholder {
+                &::placeholder {
                   font-size: 1.3rem;
                   color: #fff;
                   text-transform: capitalize;

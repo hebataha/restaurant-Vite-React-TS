@@ -17,7 +17,7 @@ export default function Login(props: LoginProps) {
             <div className={styles.loginContainer}>
               <div className={styles.loginForm}>
                 <div className="container">
-                  <h1>{trans("login")}</h1>
+                  <h1>{trans("forgetPassword")}</h1>
                   <form>
                     <div>
                       <label>
@@ -25,21 +25,10 @@ export default function Login(props: LoginProps) {
                       </label>
                       <input type="text" />
                     </div>
-                    <div>
-                      <label>
-                        {trans("password")}
-                        <sup>*</sup> :
-                      </label>
-                      <input type="text" />
-                    </div>
-                    <Link href="/forget-password">
-                      <span className={styles.forget}>
-                        {trans("forgetPassword")}
-                      </span>
-                    </Link>
+                  
 
                     <button>
-                      <span>{trans("login")}</span>
+                      <span>{trans("send")}</span>
                     </button>
                   </form>
                 </div>

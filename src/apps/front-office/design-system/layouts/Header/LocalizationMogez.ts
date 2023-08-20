@@ -63,6 +63,7 @@ const translations: TranslationsList = {
       "They cannot foresee the pain & trouble that are bound to ensue",
       userAndEmail:" Username or email address ",
       repassword:"repassowrd  ",
+      forgetPassword:"forget Password",
 
 
   },
@@ -124,6 +125,9 @@ const translations: TranslationsList = {
       "لا يمكنهم توقع الألم والمتاعب التي لا بد أن تترتب على ذلك",
       userAndEmail:" إسم المستخدم او البريد الإلكتروني ",
       repassword:"إعادة كلمه السر",
+      forgetPassword:"نسيت كلمة السر",
+      
+
   },
 };
 
