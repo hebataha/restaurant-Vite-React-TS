@@ -1,6 +1,7 @@
 import URLS from "apps/front-office/utils/urls";
 import { publicRoutes } from "apps/front-office/utils/router";
-import About from "../home/pages/About/About";
+import About from "./pages/AboutUsPage/AboutUsPage";
+
 
 publicRoutes([
   {

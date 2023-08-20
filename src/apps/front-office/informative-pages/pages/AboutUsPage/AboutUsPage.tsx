@@ -1,9 +1,9 @@
 import React from "react";
 import AboutHeader from "./AboutHeader/AboutHeader";
-import TitleComponent from "../../TitleComponent/TitleComponent";
 import BookNow from "./BookNow/BookNow";
-import Blog from "../../Blog/Blog";
 import FoodItems from "./FoodItems/FoodItems";
+import TitleComponent from "apps/front-office/home/TitleComponent/TitleComponent";
+import Blog from "apps/front-office/home/Blog/Blog";
 
 export type AboutProps = {
   children: React.ReactNode;
