@@ -1,19 +1,19 @@
 import { trans } from "@mongez/localization";
 import styles from "./style.module.scss";
-import LoginImg from "/public/register/register.webp";
+import RegisterImg from "/public/register/register.webp";
 export type RegisterProps = {
   children: React.ReactNode;
 };
 export default function Register(props: RegisterProps) {
   return (
     <>
-      <div className={styles.login}>
-        <div className={styles.loginWrapper}>
+      <div className={styles.register}>
+        <div className={styles.registerWrapper}>
           <div className={styles.overlay}></div>
-          <div className={styles.loginHeader}>
-            <img src={LoginImg} />
-            <div className={styles.loginContainer}>
-              <div className={styles.loginForm}>
+          <div className={styles.registerHeader}>
+            <img src={RegisterImg} />
+            <div className={styles.registerContainer}>
+              <div className={styles.registerForm}>
                 <div className="container">
                   <h1>{trans("register")}</h1>
                   <form>
@@ -32,13 +32,15 @@ export default function Register(props: RegisterProps) {
                     </div>
                     <div>
                       <label>
-                        {trans("password")}<sup>*</sup> :
+                        {trans("password")}
+                        <sup>*</sup> :
                       </label>
                       <input type="text" />
                     </div>
                     <div>
                       <label>
-                        {trans("repassword")}<sup>*</sup> :
+                        {trans("repassword")}
+                        <sup>*</sup> :
                       </label>
                       <input type="text" />
                     </div>

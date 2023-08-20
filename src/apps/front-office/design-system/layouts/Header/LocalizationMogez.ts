@@ -62,7 +62,7 @@ const translations: TranslationsList = {
     menuDescription:
       "They cannot foresee the pain & trouble that are bound to ensue",
       userAndEmail:" Username or email address ",
-      repassowrd:"repassowrd  ",
+      repassword:"repassowrd  ",
 
 
   },
@@ -123,7 +123,7 @@ const translations: TranslationsList = {
     menuDescription:
       "لا يمكنهم توقع الألم والمتاعب التي لا بد أن تترتب على ذلك",
       userAndEmail:" إسم المستخدم او البريد الإلكتروني ",
-      repassowrd:"إعادة كلمه السر",
+      repassword:"إعادة كلمه السر",
   },
 };
 
