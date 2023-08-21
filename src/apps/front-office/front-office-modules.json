@@ -44,6 +44,12 @@
                 "/informative-pages"
             ],
             "name": "informative-pages"
+        },
+        {
+            "entry": [
+                "/reservation"
+            ],
+            "name": "reservation"
         }
     ]
 }
