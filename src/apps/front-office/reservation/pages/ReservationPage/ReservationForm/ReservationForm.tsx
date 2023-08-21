@@ -1,12 +1,12 @@
 import { trans } from "@mongez/localization";
 import styles from "./style.module.scss";
-export type BookReservationProps = {
+export type ReservationFormProps = {
   children: React.ReactNode;
 };
-export default function BookReservation(props: BookReservationProps) {
+export default function ReservationForm(props: ReservationFormProps) {
   return (
     <>
-      <div className={styles.BookReservation}>
+      <div className={styles.ReservationForm}>
         <div className="container">
           <form>
             <div>

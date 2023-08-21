@@ -31,7 +31,7 @@ export default function Header() {
                 <Link href="/about-us">{trans("about")}</Link>
               </li>
               <li>
-                <Link>{trans("reservation")}</Link>
+                <Link href="/reservation">{trans("reservation")}</Link>
               </li>
 
               <li>
