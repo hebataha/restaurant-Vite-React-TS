@@ -1,6 +1,6 @@
 import URLS from "apps/front-office/utils/urls";
 import { publicRoutes } from "apps/front-office/utils/router";
-import ReservationPage from "./pages/ReservationPage";
+import ReservationPage from "./pages/ReservationPage/ReservationPage";
 
 publicRoutes([
   {
