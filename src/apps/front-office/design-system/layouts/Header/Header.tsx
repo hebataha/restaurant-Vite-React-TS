@@ -41,6 +41,9 @@ export default function Header() {
                 <Link>{trans("shop")}</Link>
               </li>
               <li>
+                <Link href="/contact">{trans("contact")}</Link>
+              </li>
+              <li>
                 <Link href="/login">{trans("login")}</Link>
               </li>
               <li>

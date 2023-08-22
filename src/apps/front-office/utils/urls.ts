@@ -1,6 +1,7 @@
 // append urls here, DO NOT remove this line
 
 const URLS = {
+  contact: "/contact",
   reservation: "/reservation",
   informativePages: "/informative-pages",
   layout: "/layout",
