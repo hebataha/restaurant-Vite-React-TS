@@ -61,11 +61,10 @@ const translations: TranslationsList = {
     cup: "Experience Chefs",
     menuDescription:
       "They cannot foresee the pain & trouble that are bound to ensue",
-      userAndEmail:" Username or email address ",
-      repassword:"repassowrd  ",
-      forgetPassword:"forget Password",
-
-
+    userAndEmail: " Username or email address ",
+    repassword: "repassowrd  ",
+    forgetPassword: "forget Password",
+    specialQuest: "special quest",
   },
   ar: {
     home: "الرئيسية",
@@ -123,11 +122,10 @@ const translations: TranslationsList = {
     cup: "خبرة الطهاة",
     menuDescription:
       "لا يمكنهم توقع الألم والمتاعب التي لا بد أن تترتب على ذلك",
-      userAndEmail:" إسم المستخدم او البريد الإلكتروني ",
-      repassword:"إعادة كلمه السر",
-      forgetPassword:"نسيت كلمة السر",
-      
-
+    userAndEmail: " إسم المستخدم او البريد الإلكتروني ",
+    repassword: "إعادة كلمه السر",
+    forgetPassword: "نسيت كلمة السر",
+    specialQuest: "طلب خاص",
   },
 };
 

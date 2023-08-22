@@ -2,8 +2,9 @@ import { trans } from "@mongez/localization";
 import styles from "./style.module.scss";
 export type BookReservationProps = {
   children: React.ReactNode;
+  reservation: boolean;
 };
-export default function BookReservation(props: BookReservationProps) {
+export default function BookReservation({ reservation }) {
   return (
     <>
       <div className={styles.BookReservation}>
@@ -27,8 +28,41 @@ export default function BookReservation(props: BookReservationProps) {
               </label>
               <input type="time" />
             </div>
+
+            {/* Reservation Page */}
+
+            {reservation && (
+              <>
+                <div>
+                  <label>
+                    {trans("name")} <sup>*</sup>
+                  </label>
+                  <input type="text" />
+                </div>
+                <div>
+                  <label>
+                    {trans("email")} <sup>*</sup>
+                  </label>
+                  <input type="name" />
+                </div>
+                <div>
+                  <label>
+                    {trans("phone")} <sup>*</sup>
+                  </label>
+                  <input type="number" />
+                </div>
+                <div className={styles.textarea}>
+                  <label>
+                    {trans("specialQuest")} <sup>*</sup>
+                  </label>
+                  <textarea>{trans("message")}</textarea>
+                </div>
+              </>
+            )}
+
+            {/* Reservation Page */}
             <div>
-              <button>{trans("book")}</button>
+              <button className={reservation && styles.reservationButton}>{trans("book")}</button>
             </div>
           </form>
         </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import ReservationHeader from "./ReservationHeader";
-import ReservationForm from "./ReservationForm";
+import BookReservation from "../../../home/BookReservation";
+
 
 export type ReservationPageProps = {
   children: React.ReactNode;
@@ -9,7 +10,7 @@ function _ReservationPage(props: ReservationPageProps) {
   return (
     <>
       <ReservationHeader />
-      <ReservationForm/>
+      <BookReservation reservation/>
     </>
   );
 }
