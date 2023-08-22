@@ -65,6 +65,8 @@ const translations: TranslationsList = {
     repassword: "repassowrd  ",
     forgetPassword: "forget Password",
     specialQuest: "special quest",
+    contact: "contact",
+    catch:"catch us here"
   },
   ar: {
     home: "الرئيسية",
@@ -126,6 +128,8 @@ const translations: TranslationsList = {
     repassword: "إعادة كلمه السر",
     forgetPassword: "نسيت كلمة السر",
     specialQuest: "طلب خاص",
+    contact: "تواصل معنا",
+    catch:"جدنا هنا",
   },
 };
 
