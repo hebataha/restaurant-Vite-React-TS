@@ -3,7 +3,7 @@ import React from "react";
 export type InformativePagesPageProps = {
   children: React.ReactNode;
 };
-function _InformativePagesPage(props: InformativePagesPageProps) {
+function _InformativePagesPage() {
   return (
     <>
       <h1>InformativePagesPage</h1>

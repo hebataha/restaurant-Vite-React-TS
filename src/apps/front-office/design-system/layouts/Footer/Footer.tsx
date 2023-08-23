@@ -12,21 +12,16 @@ export default function Footer() {
   return (
     <div className={`${styles.footer}`}>
       <div className=" container">
-
         <div className={`${styles.footerElements}`}>
           <div className={styles.info}>
             <img className={styles.logo} src={Logo} />
-            <p>
-              {trans("descriptionFooter")}
-            </p>
+            <p>{trans("descriptionFooter")}</p>
           </div>
- 
+
           <div className={styles.touch}>
             <h3>
-            <SignRight size={30} color="#dd5903" />
-              <span>
-              {trans("touch")}
-              </span>
+              <SignRight size={30} color="#dd5903" />
+              <span>{trans("touch")}</span>
             </h3>
             <p>{trans("addressStreet")}</p>
             <p>+39-055-123456</p>
@@ -34,10 +29,8 @@ export default function Footer() {
           </div>
           <div className={styles.pages}>
             <h3>
-            <SignRight size={30} color="#dd5903" />
-              <span>
-              {trans("pages")}
-              </span>
+              <SignRight size={30} color="#dd5903" />
+              <span>{trans("pages")}</span>
             </h3>
             <ul>
               <li>
@@ -66,7 +59,7 @@ export default function Footer() {
           </div>
           <div className={styles.imagesWrapper}>
             <div className={styles.images}>
-            <div>
+              <div>
                 <img src={Pancake} />
               </div>
               <div>

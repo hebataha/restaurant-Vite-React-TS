@@ -580,6 +580,15 @@
     "@mongez/supportive-is" "^1.0.12"
     axios "1.4.0"
 
+"@mongez/huskier@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@mongez/huskier/-/huskier-1.0.6.tgz#fc23da3ddb0c4c2d447c3beb44175380e09b945d"
+  integrity sha512-4D+kXLdabVu9YsdQvZbX7kSop5l7otFID5z1uAfinedh7kaaKOGVBHZ4ptJCBhfCL5Hw7KCzLHsKGtFX/CjwgQ==
+  dependencies:
+    "@mongez/fs" "^3.0.3"
+    chalk "^4.1.2"
+    husky ">=8.0.3"
+
 "@mongez/localization@^2.2.1", "@mongez/localization@^2.2.3", "@mongez/localization@^2.x.x":
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/@mongez/localization/-/localization-2.2.3.tgz#1167e10ffeb607cea33cb7abb09087930151dc81"
@@ -1601,7 +1610,7 @@ chalk@^2.4.2:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@^4.0.0:
+chalk@^4.0.0, chalk@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
   integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
@@ -2736,6 +2745,11 @@ humanize-ms@^1.2.1:
   integrity sha512-Fl70vYtsAFb/C06PTS9dZBo7ihau+Tu/DNCk/OyHhea07S+aeMWpFFkUaXRa8fI+ScZbEI8dfSxwY7gxZ9SAVQ==
   dependencies:
     ms "^2.0.0"
+
+husky@>=8.0.3:
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-8.0.3.tgz#4936d7212e46d1dea28fef29bb3a108872cd9184"
+  integrity sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==
 
 iconv-lite@^0.6.2:
   version "0.6.3"

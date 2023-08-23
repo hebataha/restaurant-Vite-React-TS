@@ -4,7 +4,7 @@ import ContactForm from "./ContactForm";
 export type ContactPageProps = {
   children: React.ReactNode;
 };
-function _ContactPage(props: ContactPageProps) {
+function _ContactPage() {
   return (
     <>
       <>

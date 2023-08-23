@@ -4,7 +4,7 @@ import styles from "./style.module.scss";
 export type ReservationHeaderProps = {
   children: React.ReactNode;
 };
-export default function ContactHeader(props: ContactHeaderProps) {
+export default function ContactHeader() {
   return (
     <>
       <div className={styles.ContactHeader}>

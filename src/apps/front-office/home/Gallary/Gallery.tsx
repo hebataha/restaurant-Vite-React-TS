@@ -1,4 +1,3 @@
-import { useState } from "react";
 // Import Swiper React components
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -15,16 +14,14 @@ import Gallery4 from "/public/gallery/gallery-4.jpeg";
 
 import TitleComponent from "../TitleComponent/TitleComponent";
 
-export type GallaryProps = {
+export type GalleryProps = {
   children: React.ReactNode;
 };
-export default function Gallary(props: GalleryProps) {
-  const [color, setColor] = useState(true);
-  const [gallery, setGallery] = useState(true);
+export default function Gallery() {
   return (
     <>
       <div className={styles.gallery}>
-        <TitleComponent color={color} gallery={gallery} />
+        <TitleComponent color gallery />
         <div className="container">
           <Swiper
             breakpoints={{

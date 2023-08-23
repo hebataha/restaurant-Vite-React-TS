@@ -1,4 +1,3 @@
-import { useState } from "react";
 import styles from "./style.module.scss";
 import Bg from "/public/findFoodSection/bg.webp";
 import {
@@ -13,7 +12,7 @@ import TitleComponent from "../TitleComponent/TitleComponent";
 export type FindFoodProps = {
   children: React.ReactNode;
 };
-export default function FindFood(props: FindFoodProps) {
+export default function FindFood() {
   return (
     <>
       <div className={styles.findFood}>

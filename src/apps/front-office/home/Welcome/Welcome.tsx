@@ -1,15 +1,13 @@
 import { trans } from "@mongez/localization";
 import styles from "./style.module.scss";
 import Image from "/public/welcomeSection/about2.webp";
-import TitleShape from "/public/welcomeSection/title-shape.webp";
 import TitleComponent from "../TitleComponent/TitleComponent";
-import { useState } from "react";
 
 export type WelcomeProps = {
   children: React.ReactNode;
 };
 
-export default function Welcome(props: WelcomeProps) {
+export default function Welcome() {
   return (
     <>
       <div className={styles.welcomeSectionWrapper}>

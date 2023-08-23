@@ -10,7 +10,7 @@ import {
 export type ContactFormProps = {
   children: React.ReactNode;
 };
-export default function ContactForm(props: ContactFormProps) {
+export default function ContactForm() {
   console.log(3 + 2);
   return (
     <>

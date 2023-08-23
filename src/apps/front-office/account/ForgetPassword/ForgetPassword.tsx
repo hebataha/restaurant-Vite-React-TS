@@ -5,7 +5,7 @@ export type LoginProps = {
   children: React.ReactNode;
 };
 
-export default function Login(props: LoginProps) {
+export default function Login() {
   return (
     <>
       <div className={styles.login}>

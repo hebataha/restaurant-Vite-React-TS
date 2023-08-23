@@ -1,4 +1,4 @@
-import { publicRoutes, reverseGuardedRoutes } from "../utils/router";
+import { publicRoutes } from "../utils/router";
 import URLS from "../utils/urls";
 import ForgetPassword from "./ForgetPassword/ForgetPassword";
 import Login from "./Login/Login";

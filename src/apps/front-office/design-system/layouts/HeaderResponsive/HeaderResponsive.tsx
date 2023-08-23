@@ -19,7 +19,7 @@ export default function HeaderResponsive() {
   };
 
   function toggleMenu() {
-    setClose(prevState => !close);
+    setClose(prevState => !prevState);
   }
   return (
     <>

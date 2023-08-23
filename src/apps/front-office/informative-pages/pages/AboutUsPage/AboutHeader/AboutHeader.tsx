@@ -1,4 +1,3 @@
-import { trans } from "@mongez/localization";
 import styles from "./style.module.scss";
 import HeaderVideo from "/public/AboutPage/header.mp4";
 export type AboutHeaderProps = {

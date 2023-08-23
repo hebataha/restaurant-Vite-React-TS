@@ -8,7 +8,7 @@ import Blog from "apps/front-office/home/Blog/Blog";
 export type AboutProps = {
   children: React.ReactNode;
 };
-function _About(props: AboutProps) {
+function _About() {
   return (
     <>
       <AboutHeader />

@@ -1,4 +1,3 @@
-import { trans } from "@mongez/localization";
 import { FormInterface } from "@mongez/react-form";
 import router, {
   navigateBack,

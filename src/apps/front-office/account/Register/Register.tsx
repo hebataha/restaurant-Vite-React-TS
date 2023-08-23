@@ -4,7 +4,7 @@ import RegisterImg from "/public/register/register.webp";
 export type RegisterProps = {
   children: React.ReactNode;
 };
-export default function Register(props: RegisterProps) {
+export default function Register() {
   return (
     <>
       <div className={styles.register}>

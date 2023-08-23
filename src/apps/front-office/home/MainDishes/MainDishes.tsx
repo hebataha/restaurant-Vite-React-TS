@@ -1,4 +1,3 @@
-import { useState } from "react";
 import TitleComponent from "../TitleComponent/TitleComponent";
 import styles from "./style.module.scss";
 import Burger from "/public/mainDishes/burger.webp";
@@ -6,7 +5,7 @@ import { trans } from "@mongez/localization";
 export type MainDishesProps = {
   children: React.ReactNode;
 };
-export default function MainDishes(props: MainDishesProps) {
+export default function MainDishes() {
   return (
     <>
       <div className={styles.mainDishes}>

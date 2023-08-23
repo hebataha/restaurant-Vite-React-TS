@@ -3,7 +3,7 @@ import React from "react";
 export type PostsPageProps = {
   children: React.ReactNode;
 };
-function _PostsPage(props: PostsPageProps) {
+function _PostsPage() {
   return (
     <>
       <h1>PostsPage</h1>

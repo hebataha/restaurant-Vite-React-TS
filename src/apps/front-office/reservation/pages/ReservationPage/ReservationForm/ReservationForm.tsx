@@ -3,7 +3,7 @@ import styles from "./style.module.scss";
 export type ReservationFormProps = {
   children: React.ReactNode;
 };
-export default function ReservationForm(props: ReservationFormProps) {
+export default function ReservationForm() {
   return (
     <>
       <div className={styles.ReservationForm}>

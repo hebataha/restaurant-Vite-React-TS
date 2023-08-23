@@ -4,7 +4,7 @@ export type BookReservationProps = {
   children: React.ReactNode;
   reservation: boolean;
 };
-export default function BookReservation({ reservation }) {
+export default function BookReservation({ reservation }: BookReservationProps) {
   return (
     <>
       <div className={styles.BookReservation}>
@@ -62,7 +62,9 @@ export default function BookReservation({ reservation }) {
 
             {/* Reservation Page */}
             <div>
-              <button className={reservation && styles.reservationButton}>{trans("book")}</button>
+              <button className={reservation && styles.reservationButton}>
+                {trans("book")}
+              </button>
             </div>
           </form>
         </div>
