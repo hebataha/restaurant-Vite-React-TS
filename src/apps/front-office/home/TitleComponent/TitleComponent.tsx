@@ -30,7 +30,7 @@ export default function TitleComponent({
         <h1
           style={{
             color: color ? "#000" : "#fff",
-            fontSize: foodItems ? "inhernet" :"2rem",
+            fontSize: foodItems ? "inhernet" : "2rem",
           }}>
           {welcome && trans("welcome")}
           {""} {welcome && trans("Luxury")}

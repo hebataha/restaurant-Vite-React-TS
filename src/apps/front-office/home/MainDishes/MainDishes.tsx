@@ -7,15 +7,12 @@ export type MainDishesProps = {
   children: React.ReactNode;
 };
 export default function MainDishes(props: MainDishesProps) {
-  const [color, setColor] = useState(true);
-  const [dish, setDish] = useState(true);
-
   return (
     <>
       <div className={styles.mainDishes}>
         <div className="container">
           <div className={styles.mainDishesContainer}>
-            <TitleComponent color={color} dish={dish} />
+            <TitleComponent color />
             <div className={styles.menuList}>
               <div className={styles.menuWrapper}>
                 <div className={styles.menuImg}>

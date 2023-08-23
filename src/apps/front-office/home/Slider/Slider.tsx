@@ -12,11 +12,11 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { trans } from "@mongez/localization";
-export type SlderProps = {
+export type SliderProps = {
   children: React.ReactNode;
 };
 
-export default function Slider(props: SlderProps) {
+export default function Slider() {
   return (
     <>
       <Swiper
@@ -34,10 +34,11 @@ export default function Slider(props: SlderProps) {
             <div className={styles.HeaderSlider}>
               <img src={Rest1} />
               <div className={styles.info}>
-              <h1>
-                {trans('delicious')} 
-                <span> {trans("foods")} </span>
-                </h1>{""}
+                <h1>
+                  {trans("delicious")}
+                  <span> {trans("foods")} </span>
+                </h1>
+                {""}
                 <h1>{trans("wonderful")}</h1>
                 <button>{trans("more")}</button>
               </div>
@@ -50,10 +51,11 @@ export default function Slider(props: SlderProps) {
             <div className={styles.HeaderSlider}>
               <img src={Rest2} />
               <div className={styles.info}>
-              <h1>
-                {trans('delicious')} 
-                <span> {trans("foods")}</span>
-                </h1>{""}
+                <h1>
+                  {trans("delicious")}
+                  <span> {trans("foods")}</span>
+                </h1>
+                {""}
                 <h1>{trans("wonderful")}</h1>
                 <button>{trans("more")}</button>
               </div>
@@ -66,10 +68,11 @@ export default function Slider(props: SlderProps) {
             <div className={styles.HeaderSlider}>
               <img src={Rest3} />
               <div className={styles.info}>
-              <h1>
-                {trans('delicious')} 
-                <span> {trans("foods")}</span>
-                </h1>{""}
+                <h1>
+                  {trans("delicious")}
+                  <span> {trans("foods")}</span>
+                </h1>
+                {""}
                 <h1>{trans("wonderful")}</h1>
                 <button>{trans("more")}</button>
               </div>
@@ -82,9 +85,9 @@ export default function Slider(props: SlderProps) {
             <div className={styles.HeaderSlider}>
               <img src={Rest4} />
               <div className={styles.info}>
-              <h1>
-                {trans('delicious')} {""}
-                <span>{trans("foods")}</span>
+                <h1>
+                  {trans("delicious")} {""}
+                  <span>{trans("foods")}</span>
                 </h1>
                 <h1> {trans("wonderful")}</h1>
                 <button>{trans("more")}</button>

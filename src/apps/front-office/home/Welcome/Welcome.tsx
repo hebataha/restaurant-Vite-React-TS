@@ -10,8 +10,6 @@ export type WelcomeProps = {
 };
 
 export default function Welcome(props: WelcomeProps) {
-  const [color, setColor] = useState(true);
-  const [welcome, setWelcome] = useState(true);
   return (
     <>
       <div className={styles.welcomeSectionWrapper}>

@@ -1,6 +1,5 @@
 import { useState } from "react";
 import styles from "./style.module.scss";
-import TitleShape from "/public/welcomeSection/title-shape.webp";
 import Bg from "/public/findFoodSection/bg.webp";
 import {
   BrandFacebook,
@@ -15,14 +14,12 @@ export type FindFoodProps = {
   children: React.ReactNode;
 };
 export default function FindFood(props: FindFoodProps) {
-  const [find, setFind] = useState(true);
-  const [color, setColor] = useState(true);
   return (
     <>
       <div className={styles.findFood}>
         <div className={styles.findFoodWrapper}>
           <div className={styles.info}>
-            <TitleComponent find={find} color={color}/>
+            <TitleComponent find color />
             <ul>
               <li>{trans("austria")}</li>
               <li>{trans("phoneFind")}</li>

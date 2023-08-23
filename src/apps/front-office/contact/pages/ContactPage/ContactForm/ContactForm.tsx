@@ -19,9 +19,7 @@ export default function ContactForm(props: ContactFormProps) {
           <div className={styles.contactFormWrapper}>
             <div className={styles.info}>
               <h1>{trans("catch")} </h1>
-              <p>
-                {trans("dishesDescription")}
-              </p>
+              <p>{trans("dishesDescription")}</p>
               <ul>
                 <li>{trans("austria")}</li>
                 <li>{trans("phoneFind")}</li>

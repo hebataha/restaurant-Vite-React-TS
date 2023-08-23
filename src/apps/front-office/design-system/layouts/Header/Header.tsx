@@ -20,12 +20,14 @@ export default function Header() {
       <header>
         <nav className="container">
           <div className={styles.logo}>
-            <img src={Logo} />
+            <Link href="/">
+              <img src={Logo} />
+            </Link>
           </div>
           <div className={styles.navBar}>
             <ul>
               <li>
-                <Link>{trans("home")}</Link>
+                <Link href="/">{trans("home")}</Link>
               </li>
               <li>
                 <Link href="/about-us">{trans("about")}</Link>
