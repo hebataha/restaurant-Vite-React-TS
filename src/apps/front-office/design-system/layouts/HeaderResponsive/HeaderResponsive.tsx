@@ -15,18 +15,19 @@ export default function HeaderResponsive() {
   const changeLang = () => {
     const localeCode = current("localeCode") === "en" ? "ar" : "en";
     changeLocaleCode(localeCode);
-    setLang(prevState => !prevState);
+    setLang((prevState) => !prevState);
   };
 
   function toggleMenu() {
-    setClose(prevState => !prevState);
+    setClose((prevState) => !prevState);
   }
   return (
     <>
       <div className={styles.sideMenu}>
         <div
           className={!close ? styles.appearTransition : styles.appearMenu}
-          onClick={toggleMenu}>
+          onClick={toggleMenu}
+        >
           <div className={styles.bar}>
             <AlignRight size={48} color="#fff"></AlignRight>
           </div>
@@ -35,19 +36,20 @@ export default function HeaderResponsive() {
         <div className={close ? styles.HeaderResponsive : styles.hide}>
           <div
             className={close ? styles.close : styles.closeHide}
-            onClick={toggleMenu}>
+            onClick={toggleMenu}
+          >
             X
           </div>
           <div className={styles.menu}>
             <ul>
               <li>
-                <Link>{trans("home")}</Link>
+                <Link href="/">{trans("home")}</Link>
               </li>
               <li>
-                <Link>{trans("about")}</Link>
+                <Link href="/about-us">{trans("about")}</Link>
               </li>
               <li>
-                <Link>{trans("reservation")}</Link>
+                <Link href="/reservation">{trans("reservation")}</Link>
               </li>
 
               <li>
@@ -57,11 +59,15 @@ export default function HeaderResponsive() {
                 <Link>{trans("shop")}</Link>
               </li>
               <li>
-                <Link>{trans("login")}</Link>
+                <Link href="/contact">{trans("contact")}</Link>
               </li>
               <li>
-                <Link>{trans("register")}</Link>
+                <Link href="/login">{trans("login")}</Link>
               </li>
+              <li>
+                <Link href="/register">{trans("register")}</Link>
+              </li>
+
               <li>
                 <button onClick={changeLang}>{lang ? "en" : "ar"}</button>
               </li>
