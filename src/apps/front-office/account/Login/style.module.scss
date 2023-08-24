@@ -81,7 +81,7 @@
               text-decoration: underline;
               display: block;
               margin-bottom: 20px;
-              font-weight: bold;
+              // font-weight: bold;
               display: flex;
               flex-direction: row-reverse;
               cursor: pointer;
@@ -96,13 +96,13 @@
               border-radius: 0;
               padding: 16px;
               font-size: 1.2rem;
-              font-weight: bold;
+              // font-weight: bold;
               transition: all 0.5s ease-in-out;
               background-color: #dd5903;
               color: #fff;
               margin: auto;
               &:hover {
-                border: 3px solid hwb(23.67deg 1.18% 13.33% / 42%);
+                // border: 3px solid hwb(23.67deg 1.18% 13.33% / 42%);
                 background-color: hwb(23.67deg 1.18% 13.33% / 42%);
                 color: #fff;
               }

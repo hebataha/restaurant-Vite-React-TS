@@ -10,7 +10,7 @@ export default function Sort() {
         <span>
           {/* Showing 1-6 of 8 results */}
           {trans("showing")}
-          1-6 
+          1-6
           {""}
           {trans("results")}
         </span>
