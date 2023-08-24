@@ -1,17 +1,16 @@
-.sort{
+.sort {
   display: flex;
   justify-content: space-between;
-  select{
-    
+  select {
     padding: 10px;
     font-weight: bold;
     border: 2px solid #dd5903;
-    color:#dd5903;
-    option{
+    color: #dd5903;
+    option {
       padding: 10px;
       font-weight: bold;
       border: 2px solid #dd5903;
-      color:#dd5903;
+      color: #dd5903;
     }
   }
 }

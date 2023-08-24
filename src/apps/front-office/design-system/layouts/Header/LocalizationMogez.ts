@@ -67,6 +67,9 @@ const translations: TranslationsList = {
     specialQuest: "special quest",
     contact: "contact",
     catch: "catch us here",
+    showing: "showing",
+    results: "results",
+    defaultSorting: "Default sorting",
   },
   ar: {
     home: "الرئيسية",
