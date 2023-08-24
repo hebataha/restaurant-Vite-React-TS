@@ -70,6 +70,11 @@ const translations: TranslationsList = {
     showing: "showing",
     results: "results",
     defaultSorting: "Default sorting",
+    SortPopularity: "Sort by popularity",
+    SortRating: "Sort by average rating",
+    lowHigh: "low to high",
+    highlow: "Sort by price: high to low",
+    addCart: "اضافه الي السلة",
   },
   ar: {
     home: "الرئيسية",
@@ -133,6 +138,14 @@ const translations: TranslationsList = {
     specialQuest: "طلب خاص",
     contact: "تواصل معنا",
     catch: "جدنا هنا",
+    showing: "إظهار",
+    results: "النتائج",
+    defaultSorting: "التصنيف الإفتراضي",
+    SortPopularity: "التصنيف بالاكثر شعبيه",
+    SortRating: "التصنيف بالتقييم",
+    lowHigh: "التصنيف السعر من الاقل للاعلي",
+    highlow: "  التصنيف السعر من  للاعلي لاقل",
+    addCart: "اضافه الي السلة",
   },
 };
 

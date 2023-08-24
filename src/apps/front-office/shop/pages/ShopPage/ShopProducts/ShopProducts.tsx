@@ -3,6 +3,7 @@ import Sort from "./Sort/Sort";
 import ProductImage from "/public/shopPage/3.avif";
 import ProductImage2 from "/public/shopPage/1.avif";
 import ProductImage3 from "/public/shopPage/2.avif";
+import { trans } from "@mongez/localization";
 
 export type ShopProductsProps = {
   children: React.ReactNode;
@@ -25,7 +26,7 @@ export default function ShopProducts() {
               <span>$33.00</span>
             </div>
             <button>
-              <span>Add To Cart</span>
+              <span>{trans("addCart")}</span>
             </button>
           </div>
           <div className={styles.ShopProductsItem}>
@@ -39,7 +40,7 @@ export default function ShopProducts() {
               <span>$33.00</span>
             </div>
             <button>
-              <span>Add To Cart</span>
+              <span>{trans("addCart")}</span>
             </button>
           </div>
           <div className={styles.ShopProductsItem}>
@@ -53,7 +54,7 @@ export default function ShopProducts() {
               <span>$33.00</span>
             </div>
             <button>
-              <span>Add To Cart</span>
+              <span>{trans("addCart")}</span>
             </button>
           </div>
           <div className={styles.ShopProductsItem}>
@@ -67,7 +68,7 @@ export default function ShopProducts() {
               <span>$ 33.00</span>
             </div>
             <button>
-              <span>Add To Cart</span>
+              <span>{trans("addCart")}</span>
             </button>
           </div>
         </div>
