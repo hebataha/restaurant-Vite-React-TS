@@ -1,8 +1,8 @@
 import { trans } from "@mongez/localization";
 import styles from "./style.module.scss";
 export type BookReservationProps = {
-  children: React.ReactNode;
-  reservation: boolean;
+  children?: React.ReactNode;
+  reservation?: boolean;
 };
 export default function BookReservation({ reservation }: BookReservationProps) {
   return (
@@ -62,7 +62,7 @@ export default function BookReservation({ reservation }: BookReservationProps) {
 
             {/* Reservation Page */}
             <div>
-              <button className={reservation && styles.reservationButton}>
+              <button className={reservation ? styles.reservationButton : ""}>
                 {trans("book")}
               </button>
             </div>

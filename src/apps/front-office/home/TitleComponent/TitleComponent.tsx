@@ -3,15 +3,15 @@ import TitleShape from "/public/welcomeSection/title-shape.webp";
 import styles from "./style.module.scss";
 
 export type TitleComponentProps = {
-  children: React.ReactNode;
-  color: boolean;
-  welcome: boolean;
-  find: boolean;
-  dish: boolean;
-  blog: boolean;
-  gallery: boolean;
-  about: boolean;
-  foodItems: boolean;
+  children?: React.ReactNode;
+  color?: boolean;
+  welcome?: boolean;
+  find?: boolean;
+  dish?: boolean;
+  blog?: boolean;
+  gallery?: boolean;
+  about?: boolean;
+  foodItems?: boolean;
 };
 export default function TitleComponent({
   color,

@@ -1,61 +1,44 @@
 {
-    "path": "/",
-    "name": "front-office",
-    "modules": [
-        {
-            "entry": [
-                "/account",
-                "/login",
-                "/register",
-                "/forget-password",
-                "/rest-password"
-            ],
-            "name": "account"
-        },
-        {
-            "entry": [
-                "/",
-                "/404"
-            ],
-            "name": "home"
-        },
-        {
-            "entry": [
-                "/about-us",
-                "/privacy-policy",
-                "/terms-conditions"
-            ],
-            "name": "informative-pages"
-        },
-        {
-            "entry": [
-                "/posts"
-            ],
-            "name": "posts"
-        },
-        {
-            "entry": [
-                "/layout"
-            ],
-            "name": "layout"
-        },
-        {
-            "entry": [
-                "/informative-pages"
-            ],
-            "name": "informative-pages"
-        },
-        {
-            "entry": [
-                "/reservation"
-            ],
-            "name": "reservation"
-        },
-        {
-            "entry": [
-                "/contact"
-            ],
-            "name": "contact"
-        }
-    ]
+  "path": "/",
+  "name": "front-office",
+  "modules": [
+    {
+      "entry": [
+        "/account",
+        "/login",
+        "/register",
+        "/forget-password",
+        "/rest-password"
+      ],
+      "name": "account"
+    },
+    {
+      "entry": ["/", "/404"],
+      "name": "home"
+    },
+    {
+      "entry": ["/about-us", "/privacy-policy", "/terms-conditions"],
+      "name": "informative-pages"
+    },
+    {
+      "entry": ["/posts"],
+      "name": "posts"
+    },
+    {
+      "entry": ["/layout"],
+      "name": "layout"
+    },
+    {
+      "entry": ["/informative-pages"],
+      "name": "informative-pages"
+    },
+    {
+      "entry": ["/reservation"],
+      "name": "reservation"
+    },
+    {
+      "entry": ["/contact"],
+      "name": "contact"
+    }
+  ]
 }

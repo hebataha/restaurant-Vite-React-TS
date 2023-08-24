@@ -34,8 +34,8 @@
         color: #fff;
         font-size: 5rem;
         margin: 10px 0;
-        span{
-          color:#dd5903;
+        span {
+          color: #dd5903;
         }
       }
       button {
@@ -44,21 +44,21 @@
         // padding: 15px;
         margin: 20px 0;
         border-radius: 0;
-        transition: all .5s ease-in-out;
+        transition: all 0.5s ease-in-out;
         font-size: 1.2rem;
         background-color: #fff;
         &:hover {
           border: 3px solid hwb(23.67deg 1.18% 13.33% / 42%);
           background-color: hwb(23.67deg 1.18% 13.33% / 42%);
-          color:#fff
+          color: #fff;
         }
       }
     }
   }
 }
 
-html[dir*="rtl"]{
-  span{
+html[dir*="rtl"] {
+  span {
     // color:#fff !important
   }
 }

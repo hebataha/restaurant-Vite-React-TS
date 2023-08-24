@@ -1,23 +1,22 @@
-
-.sideMenu{
+.sideMenu {
   position: fixed;
   display: none;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   width: auto;
   height: 100%;
   z-index: 999;
-  @media(max-width:700px){
+  @media (max-width: 700px) {
     display: block;
   }
 
   .appearMenu {
     position: relative;
     width: 100%;
-    inset-inline-start:0;
+    inset-inline-start: 0;
     opacity: 0;
     display: none;
-    transition: all .5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     .bar {
       color: #fff;
       background-color: #4a4646;
@@ -33,18 +32,18 @@
       cursor: pointer;
       position: relative;
       z-index: 99;
-      @media(max-width:700px){
+      @media (max-width: 700px) {
         display: block;
       }
     }
   }
-  
-  .appearTransition{
+
+  .appearTransition {
     // inset-inline-end: 100%;
-    transition: all .5s ease-in-out;
-  opacity: 1;
-  inset-inline-start:320px;
-  
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+    inset-inline-start: 320px;
+
     .bar {
       color: #fff;
       background-color: #4a4646;
@@ -60,13 +59,12 @@
       cursor: pointer;
       position: relative;
       z-index: 99;
-      @media(max-width:700px){
+      @media (max-width: 700px) {
         display: block;
       }
     }
   }
-  
-  
+
   .HeaderResponsive {
     background-color: black;
     width: auto;
@@ -74,12 +72,12 @@
     position: relative;
     inset-inline-start: 0px;
     opacity: 1;
-    transition: all .5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     position: absolute;
     top: 0;
     position: fixed;
     // display: none;
-    top:0;
+    top: 0;
     inset-inline-start: 0px;
     width: 100%;
     height: 100%;
@@ -98,7 +96,7 @@
       inset-inline-end: 60px;
       cursor: pointer;
     }
-    .menu{
+    .menu {
       ul {
         display: flex;
         gap: 15px;
@@ -111,8 +109,8 @@
             text-indent: 0px !important;
             text-align: start !important;
             text-align-last: start !important;
-            button{
-              color:#fff
+            button {
+              color: #fff;
             }
           }
           a {
@@ -122,16 +120,15 @@
         }
       }
     }
-   
   }
-  
-  .hide{
+
+  .hide {
     background-color: black;
     padding: 20px 0;
     position: relative;
     inset-inline-start: -320px;
     opacity: 0;
-    transition: all .5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     position: fixed;
     top: 0;
     width: auto;
@@ -150,7 +147,7 @@
       inset-inline-end: 15px;
       cursor: pointer;
     }
-    .menu{
+    .menu {
       ul {
         display: flex;
         gap: 15px;

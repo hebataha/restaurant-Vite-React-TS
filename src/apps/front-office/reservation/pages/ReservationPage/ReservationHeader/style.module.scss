@@ -1,18 +1,18 @@
-.reservationHeader{
-    background-image: url("/public/reservation/reservation.webp");
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    h1{
-        color:#fff;
-        text-transform: uppercase;
-        font-size: 4rem;
-        border-top:3px solid #dd5903;
-        padding-top: 8px;
-        min-width: 250px;
-        text-align: center;
-    }
+.reservationHeader {
+  background-image: url("/public/reservation/reservation.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4rem;
+    border-top: 3px solid #dd5903;
+    padding-top: 8px;
+    min-width: 250px;
+    text-align: center;
+  }
 }
