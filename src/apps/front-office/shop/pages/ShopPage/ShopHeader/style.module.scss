@@ -1,0 +1,31 @@
+.shopWrapper {
+  position: relative;
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #17171769;
+    height: 100%;
+    width: 100%;
+  }
+  .shopHeader {
+    background-image: url("/public/shopPage/cover.avif");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 4rem;
+      border-top: 3px solid #dd5903;
+      padding-top: 8px;
+      min-width: 250px;
+      text-align: center;
+      position: relative;
+      z-index: 9;
+    }
+  }
+}

@@ -40,7 +40,7 @@ export default function Header() {
                 <Link>{trans("menus")}</Link>
               </li>
               <li>
-                <Link>{trans("shop")}</Link>
+                <Link href="/shop">{trans("shop")}</Link>
               </li>
               <li>
                 <Link href="/contact">{trans("contact")}</Link>

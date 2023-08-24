@@ -39,6 +39,10 @@
     {
       "entry": ["/contact"],
       "name": "contact"
+    },
+    {
+      "entry": ["/shop"],
+      "name": "shop"
     }
   ]
 }
