@@ -13,7 +13,7 @@ export default function Header() {
   const changeLang = () => {
     const localeCode = current("localeCode") === "en" ? "ar" : "en";
     changeLocaleCode(localeCode);
-    setLang((prevState) => !prevState);
+    setLang(prevState => !prevState);
   };
   return (
     <>
