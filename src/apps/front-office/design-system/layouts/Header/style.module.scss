@@ -42,6 +42,11 @@ header {
           }
           a {
             color: #fff;
+            transition: all .5s ease-in-out;
+              &:hover{
+                color:#dd5903;
+                border-bottom: 1px solid  #dd5903;
+              }  
           }
         }
         button {
