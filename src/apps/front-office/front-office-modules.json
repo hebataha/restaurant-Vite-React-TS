@@ -47,6 +47,10 @@
     {
       "entry": ["/not-found"],
       "name": "not-found"
+    },
+    {
+      "entry": ["/faq"],
+      "name": "faq"
     }
   ]
 }
