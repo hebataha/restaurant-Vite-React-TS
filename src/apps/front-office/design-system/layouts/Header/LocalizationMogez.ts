@@ -79,6 +79,7 @@ const translations: TranslationsList = {
     privacyContent:
       "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Eos Enim Voluptatum Facere Laborum Autem, Obcaecati Earum Assumenda Odio Id Quia Quam Dolorum Quo Modi Laudantium, Consectetur Ut Sed Voluptas Consequatur.",
     terms: "terms and condition",
+    faq: "faq",
   },
   ar: {
     home: "الرئيسية",
@@ -154,6 +155,7 @@ const translations: TranslationsList = {
     privacyContent:
       "مشارف العالم، يتم و, أن دخول نتيجة السبب دار. قام اتفاق واستمر عن, المارق والفلبين ويكيبيديا، ومن عل, وفي دأبوا بالعمل الإيطالية هو. بمحاولة المتساقطة، و أسر, دار عل الحدود بالجانب, يتم جورج ممثّلة معزّزة بـ. وبداية الإمتعاض ولم بـ. قبل ان مرمى وإقامة البشريةً. الخاسرة والروسية وقد ان, ٣٠ بعض أوسع بلاده وأزيز.",
     terms: "الشروط والإحكام",
+    faq: " الاسئله والاستفسارات",
   },
 };
 

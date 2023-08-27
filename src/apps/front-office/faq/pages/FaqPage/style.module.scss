@@ -1,0 +1,62 @@
+.faq {
+  background-image: url("/public/reservation/reservation.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4rem;
+    border-top: 3px solid #dd5903;
+    padding-top: 8px;
+    min-width: 250px;
+    text-align: center;
+  }
+}
+
+.content {
+  width: 50%;
+  padding: 15px;
+  box-shadow: 3px 1px 20px -10px #0000006b;
+  border-radius: 8px;
+  margin:60px auto;
+  margin-bottom: 10px;
+  .faqBox {
+
+    .faqBoxHeader {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h3 {
+        margin: 5px !important;
+      }
+      svg {
+        cursor: pointer;
+        font-weight: bold;
+      }
+    }
+  }
+  .faqBoxBody {
+    background-color: #fff;
+    transition: all 2s ease-in-out;
+    p {
+    }
+  }
+  .trans {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    height: 0;
+    display: none;
+    //  position: relative;
+    //  top:-100px
+    p {
+      margin: 0;
+      height: 0;
+      transition: opacity 2s ease-in-out;
+      opacity: 0;
+    }
+  }
+}
