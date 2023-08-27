@@ -1,0 +1,41 @@
+.privacy {
+  background-image: url("/public/reservation/reservation.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4rem;
+    border-top: 3px solid #dd5903;
+    padding-top: 8px;
+    min-width: 250px;
+    text-align: center;
+  }
+}
+
+.content {
+  padding: 60px 0 ;
+  p {
+    width: 50%;
+    display: block;
+    margin: auto;
+    position: relative;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    &:before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      background-color: #dd5903;
+      border-radius: 50%;
+      display: block;
+      top: 15px;
+      inset-inline-start: -20px;
+      position: absolute;
+    }
+  }
+}

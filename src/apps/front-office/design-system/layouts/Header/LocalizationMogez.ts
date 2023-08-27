@@ -74,7 +74,9 @@ const translations: TranslationsList = {
     SortRating: "Sort by average rating",
     lowHigh: "low to high",
     highlow: "Sort by price: high to low",
-    addCart: "اضافه الي السلة",
+    addCart: " add to cart",
+    privacy: "privacy and policy",
+    privacyContent:"Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Eos Enim Voluptatum Facere Laborum Autem, Obcaecati Earum Assumenda Odio Id Quia Quam Dolorum Quo Modi Laudantium, Consectetur Ut Sed Voluptas Consequatur."
   },
   ar: {
     home: "الرئيسية",
@@ -146,6 +148,8 @@ const translations: TranslationsList = {
     lowHigh: "التصنيف السعر من الاقل للاعلي",
     highlow: "  التصنيف السعر من  للاعلي لاقل",
     addCart: "اضافه الي السلة",
+    privacy: " السياسة والخصوصية ",
+    privacyContent:"مشارف العالم، يتم و, أن دخول نتيجة السبب دار. قام اتفاق واستمر عن, المارق والفلبين ويكيبيديا، ومن عل, وفي دأبوا بالعمل الإيطالية هو. بمحاولة المتساقطة، و أسر, دار عل الحدود بالجانب, يتم جورج ممثّلة معزّزة بـ. وبداية الإمتعاض ولم بـ. قبل ان مرمى وإقامة البشريةً. الخاسرة والروسية وقد ان, ٣٠ بعض أوسع بلاده وأزيز."
   },
 };
 
