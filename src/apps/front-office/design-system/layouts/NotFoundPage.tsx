@@ -1,11 +1,13 @@
 import { trans } from "@mongez/localization";
 import Helmet from "@mongez/react-helmet";
-
+import styles from "./style.module.scss";
 export default function NotFoundPage() {
   return (
     <>
       <Helmet title={trans("notFoundPage")} />
-      <h3>Not Found</h3>
+      <div className={styles.notFound}>
+        {/* <h1>{trans("notfOUND")}</h1> */}
+      </div>
     </>
   );
 }
