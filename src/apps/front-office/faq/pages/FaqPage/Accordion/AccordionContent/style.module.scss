@@ -1,0 +1,32 @@
+.faqBoxHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h3 {
+    margin: 5px !important;
+  }
+  svg {
+    cursor: pointer;
+    font-weight: bold;
+  }
+}
+
+.faqBoxBody {
+  background-color: #fff;
+  transition: all 2s ease-in-out;
+  p {
+  }
+}
+.trans {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+  height: 0;
+  display: none;
+
+  p {
+    margin: 0;
+    height: 0;
+    transition: opacity 2s ease-in-out;
+    opacity: 0;
+  }
+}
