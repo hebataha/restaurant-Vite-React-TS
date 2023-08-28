@@ -12,7 +12,7 @@ export default function AccordionContent({
   const [appear, setAppeaer] = useState(true);
 
   const handleAccordion = () => {
-    setAppeaer((prevState) => !prevState);
+    setAppeaer(prevState => !prevState);
   };
   return (
     <>
