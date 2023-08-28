@@ -12,7 +12,7 @@ export default function AccordionContent({
   const [appear, setAppeaer] = useState(true);
 
   const handleAccordion = () => {
-    setAppeaer(prevState => !prevState);
+    setAppeaer((prevState) => !prevState);
   };
   return (
     <>
@@ -26,7 +26,9 @@ export default function AccordionContent({
           )}
         </span>
       </div>
-      {appear && <div className={styles.faqBoxBody}>{children}</div>}
+      <div className={appear ? styles.faqBoxBody : styles.trans}>
+        {children}
+      </div>
     </>
   );
 }
