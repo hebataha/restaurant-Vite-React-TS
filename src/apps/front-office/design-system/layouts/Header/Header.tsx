@@ -13,7 +13,7 @@ export default function Header() {
   const changeLang = () => {
     const localeCode = current("localeCode") === "en" ? "ar" : "en";
     changeLocaleCode(localeCode);
-    setLang(prevState => !prevState);
+    setLang((prevState) => !prevState);
   };
   return (
     <>
@@ -41,6 +41,9 @@ export default function Header() {
               </li>
               <li>
                 <Link href="/privacy-policy">{trans("privacy")}</Link>
+              </li>
+              <li>
+                <Link href="/faq">{trans("faq")}</Link>
               </li>
               <li>
                 <Link href="/shop">{trans("shop")}</Link>

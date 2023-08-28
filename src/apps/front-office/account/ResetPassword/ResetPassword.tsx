@@ -5,7 +5,7 @@ export type LoginProps = {
   children: React.ReactNode;
 };
 
-export default function ForgetPassword() {
+export default function ResetPassword() {
   return (
     <>
       <div className={styles.login}>
@@ -16,15 +16,20 @@ export default function ForgetPassword() {
             <div className={styles.loginContainer}>
               <div className={styles.loginForm}>
                 <div className="container">
-                  <h1>{trans("forgetPassword")}</h1>
+                  <h1>{trans("resetPassword")}</h1>
                   <form>
                     <div>
                       <label>
-                        {trans("userAndEmail")} <sup>*</sup> :
+                        {trans("password")} <sup>*</sup> :
                       </label>
-                      <input type="text" />
+                      <input type="password" />
                     </div>
-
+                    <div>
+                      <label>
+                        {trans("repassword")} <sup>*</sup> :
+                      </label>
+                      <input type="password" />
+                    </div>
                     <button>
                       <span>{trans("send")}</span>
                     </button>
