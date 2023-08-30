@@ -3,7 +3,8 @@ import AboutHeader from "./AboutHeader/AboutHeader";
 import BookNow from "./BookNow/BookNow";
 import FoodItems from "./FoodItems/FoodItems";
 import TitleComponent from "apps/front-office/home/TitleComponent/TitleComponent";
-import Blog from "apps/front-office/home/Blog/Blog";
+import Blog from "apps/front-office/home/HomeBlog/Blog";
+import HomeBlog from "apps/front-office/home/HomeBlog/HomeBlog";
 
 export type AboutProps = {
   children: React.ReactNode;
@@ -16,7 +17,7 @@ function _About() {
         <TitleComponent about color />
       </div>
       <BookNow />
-      <Blog />
+      <HomeBlog />
       <FoodItems />
     </>
   );

@@ -1,8 +1,8 @@
 import URLS from "apps/front-office/utils/urls";
 import { publicRoutes } from "apps/front-office/utils/router";
 import About from "./pages/AboutUsPage/AboutUsPage";
-import PrivacyPolicyPage from "./pages/PrivacyPolicyPage/PrivacyPolicyPage";
-import TermsPage from "./pages/TermsPage/TermsPage";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
+import TermsPage from "./pages/TermsPage";
 
 publicRoutes([
   {

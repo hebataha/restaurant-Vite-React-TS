@@ -5,7 +5,7 @@ import { trans } from "@mongez/localization";
 export type BlogProps = {
   children: React.ReactNode;
 };
-export default function Blog() {
+export default function HomeBlog() {
   return (
     <>
       <div className={styles.HomeBlog}>

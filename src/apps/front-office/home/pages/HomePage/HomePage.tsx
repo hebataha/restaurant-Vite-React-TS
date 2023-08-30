@@ -6,8 +6,8 @@ import BookReservation from "../../BookReservation/BookReservation";
 import Welcome from "../../Welcome/Welcome";
 import FindFood from "../../FindFood/FindFood";
 import MainDishes from "../../MainDishes/MainDishes";
-import Blog from "../../Blog/Blog";
 import Gallery from "../../Gallary";
+import HomeBlog from "../../HomeBlog/HomeBlog";
 
 export default function HomePage() {
   return (
@@ -20,7 +20,7 @@ export default function HomePage() {
         <FindFood />
         <MainDishes />
         <Gallery />
-        <Blog />
+        <HomeBlog />
       </div>
     </>
   );
