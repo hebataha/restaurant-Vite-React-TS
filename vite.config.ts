@@ -12,5 +12,8 @@ export default defineConfig(() => ({
     mongezVite(),
     react(),
   ],
+  server: {
+    port: 5000,
+  },
   envPrefix: "APP_",
 }));
