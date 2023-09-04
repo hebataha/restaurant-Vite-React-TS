@@ -81,6 +81,8 @@ const translations: TranslationsList = {
     terms: "terms and condition",
     faq: "faq",
     resetPassword: "reset password",
+    recentPosts: "recent Posts",
+    tags: "tags ",
   },
   ar: {
     home: "الرئيسية",
@@ -158,6 +160,8 @@ const translations: TranslationsList = {
     terms: "الشروط والإحكام",
     faq: " الاسئله والاستفسارات",
     resetPassword: "إعادة تعيين كلمه المرور",
+    recentPosts: "المقالات الحديثة",
+    tags: "الكلمات المفتاحية",
   },
 };
 

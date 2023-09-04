@@ -1,6 +1,5 @@
 import React from "react";
 import { trans } from "@mongez/localization";
-import "../../../../vite-project/src/config/localization"
 import styles from "./style.module.scss";
 
 const RecentPosts: React.FC = () => {
