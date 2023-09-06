@@ -71,11 +71,18 @@ export default function Header() {
               ) : (
                 <>
                   <li className={styles.personWrapper}>
-                    <div className={styles.imageWrapper}>
-                      <img src={Person} />
-                    </div>
+                    <div className={styles.person}>
+                      <div className={styles.imageWrapper}>
+                        <img src={Person} />
+                      </div>
 
-                    <span>mazen</span>
+                      <span>mazen</span>
+                    </div>
+                    <div className={styles.personDrop}>
+                      <ul>
+                        <li>heba</li>
+                      </ul>
+                    </div>
                   </li>
                 </>
               )}

@@ -51,24 +51,31 @@ header {
         }
 
         .personWrapper {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          gap: 8px;
-          .imageWrapper {
-            width: 60px;
-            height: 60px;
-            cursor: pointer;
-            img {
-              width: 100%;
-              height: 100%;
-              border-radius: 50%;
+          .person{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            background: #dd5903;
+            padding: 5px;
+            border-radius: 35px;
+            .imageWrapper {
+              width: 60px;
+              height: 60px;
+              cursor: pointer;
+              img {
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+              }
+            }
+  
+            span {
+              color: #fff;
+              cursor: pointer;
             }
           }
-
-          span {
-            color: #fff;
-          }
+     
         }
       }
       button {
