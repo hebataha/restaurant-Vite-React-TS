@@ -5,15 +5,19 @@ import HeaderResponsive from "../HeaderResponsive/HeaderResponsive";
 import { trans } from "@mongez/localization";
 import Logo from "/public/logo.png";
 import { current } from "@mongez/react";
+import Person from "/public/profile/person.avif";
 // import Logo from ""
 
 export default function Header() {
   const [lang, setLang] = useState(true);
+  const loggedIn = {
+    loggedIn: false,
+  };
 
   const changeLang = () => {
     const localeCode = current("localeCode") === "en" ? "ar" : "en";
     changeLocaleCode(localeCode);
-    setLang(prevState => !prevState);
+    setLang((prevState) => !prevState);
   };
   return (
     <>
@@ -54,12 +58,28 @@ export default function Header() {
               <li>
                 <Link href="/contact">{trans("contact")}</Link>
               </li>
-              <li>
-                <Link href="/login">{trans("login")}</Link>
-              </li>
-              <li>
-                <Link href="/register">{trans("register")}</Link>
-              </li>
+
+              {loggedIn.loggedIn ? (
+                <>
+                  <li>
+                    <Link href="/login">{trans("login")}</Link>
+                  </li>
+                  <li>
+                    <Link href="/register">{trans("register")}</Link>
+                  </li>
+                </>
+              ) : (
+                <>
+                  <li className={styles.personWrapper}>
+                    <div className={styles.imageWrapper}>
+                      <img src={Person} />
+                    </div>
+
+                    <span>mazen</span>
+                  </li>
+                </>
+              )}
+
               <li>
                 <button onClick={changeLang}>{lang ? "EN" : "AR"}</button>
               </li>
