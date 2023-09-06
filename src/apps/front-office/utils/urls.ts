@@ -1,6 +1,7 @@
 // append urls here, DO NOT remove this line
 
 const URLS = {
+  profile: "/profile",
   shop: "/shop",
   contact: "/contact",
   reservation: "/reservation",

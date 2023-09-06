@@ -59,6 +59,10 @@
     {
       "entry": ["/blog"],
       "name": "blog"
+    },
+    {
+      "entry": ["/profile"],
+      "name": "profile"
     }
   ]
 }

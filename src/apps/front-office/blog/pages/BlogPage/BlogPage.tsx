@@ -1,3 +1,4 @@
+import HomeBlog from "apps/front-office/home/HomeBlog/HomeBlog";
 import React from "react";
 
 export type BlogPageProps = {
@@ -6,7 +7,7 @@ export type BlogPageProps = {
 function _BlogPage() {
   return (
     <>
-      <h1>blog page</h1>
+      <HomeBlog />
     </>
   );
 }

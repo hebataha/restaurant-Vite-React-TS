@@ -17,32 +17,26 @@
     }
   }
 
- 
-    .TagsItems {
-    ul{
+  .TagsItems {
+    ul {
       display: flex;
-      gap:10px;
+      gap: 10px;
       flex-wrap: wrap;
-      li{
+      li {
         font-size: 15px;
         text-transform: capitalize;
         font-weight: 900;
         letter-spacing: 0.5px;
         color: #aaa;
-        border:1px solid #aaa;
+        border: 1px solid #aaa;
         padding: 15px;
         cursor: pointer;
-        transition: all .5s ease-in;
-       &:hover{
-        background-color: #f7b385;
-        color:#fff
-       }
+        transition: all 0.5s ease-in;
+        &:hover {
+          background-color: #f7b385;
+          color: #fff;
+        }
       }
     }
-    
-
-
-    }
-    
   }
-
+}
